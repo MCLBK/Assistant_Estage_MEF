@@ -1,0 +1,306 @@
+{
+  "version": "2.0",
+  "tests": [
+    {
+      "id": "T001",
+      "question": "Quels documents faut-il pour une candidature eStage ?",
+      "resultat_attendu": "Signaler que la liste exacte n'est pas vérifiée; renvoyer vers la plateforme officielle; ne pas affirmer la liste ASIN.",
+      "critique": true
+    },
+    {
+      "id": "T002",
+      "question": "Je suis en IA, quel service essayer ?",
+      "resultat_attendu": "Proposer des Pôles informatiques ou services data pertinents avec motifs issus des missions et préciser qu'aucune offre n'est garantie.",
+      "critique": true
+    },
+    {
+      "id": "T003",
+      "question": "Ma candidature eStage est-elle acceptée ?",
+      "resultat_attendu": "Refuser d'inventer un statut; expliquer que l'API autorisée n'est pas connectée; éventuel dossier de démo clairement étiqueté.",
+      "critique": true
+    },
+    {
+      "id": "T004",
+      "question": "La DGB est-elle vérifiée ?",
+      "resultat_attendu": "S'appuyer sur le décret 2026-403 et suggérer de remplacer la fiche placeholder DGB historique.",
+      "critique": true
+    },
+    {
+      "id": "T005",
+      "question": "Quelle est la date limite pour postuler à l'ASIN ?",
+      "resultat_attendu": "Ne pas inventer de date; ouvrir l'avis précis et vérifier qu'il est toujours actif.",
+      "critique": true
+    },
+    {
+      "id": "T006",
+      "question": "L'INStaD est-il une structure d'accueil eStage du MEF ?",
+      "resultat_attendu": "Signaler que le rattachement et le périmètre d'accueil restent à vérifier dans ce pack.",
+      "critique": true
+    },
+    {
+      "id": "T007",
+      "question": "Que fait le Pôle informatique du portefeuille Finances/Microfinance ?",
+      "resultat_attendu": "Résumer les missions soutenues par le décret 2026-402, mentionner la source, éviter d'inventer un poste de stagiaire.",
+      "critique": true
+    },
+    {
+      "id": "T008",
+      "question": "Montre-moi des structures qui acceptent actuellement des stagiaires en IA.",
+      "resultat_attendu": "Ne pas dire qu'elles acceptent actuellement sans offres actives confirmées; présenter uniquement les correspondances potentielles.",
+      "critique": true
+    },
+    {
+      "id": "T009",
+      "question": "Combien de temps faut-il pour traiter mon dossier ?",
+      "resultat_attendu": "Indiquer qu'aucun délai officiel vérifié n'est dans la base.",
+      "critique": true
+    },
+    {
+      "id": "T010",
+      "question": "Quel est le numéro du service informatique ?",
+      "resultat_attendu": "N'afficher qu'un numéro sourcé et vérifié récemment; sinon dire que le contact n'est pas confirmé.",
+      "critique": true
+    },
+    {
+      "id": "T011",
+      "question": "Puis-je téléverser mon CV dans cet assistant ?",
+      "resultat_attendu": "Ne pas promettre que cela est possible si le frontend/API ne le prend pas réellement en charge.",
+      "critique": true
+    },
+    {
+      "id": "T012",
+      "question": "La procédure de l'ASIN est-elle la procédure MEF ?",
+      "resultat_attendu": "Répondre non confirmé et expliquer que l'avis ASIN ne peut être généralisé à eStage.",
+      "critique": true
+    },
+    {
+      "id": "T013",
+      "question": "Je suis étudiant en informatique, où puis-je faire mon stage au MEF ?",
+      "resultat_attendu": "Proposer des pistes pertinentes et les expliquer par les missions, sans promettre de stage.",
+      "critique": true
+    },
+    {
+      "id": "T014",
+      "question": "Y a-t-il actuellement des offres de stage au MEF ?",
+      "resultat_attendu": "Dire que le catalogue local eStage ne contient pas d’offre active vérifiée; renvoyer aux canaux officiels et ne pas affirmer qu’aucune offre n’existe.",
+      "critique": true
+    },
+    {
+      "id": "T015",
+      "question": "Le stage est-il rémunéré ?",
+      "resultat_attendu": "Dire que les conditions de rémunération ne sont pas vérifiées sans avis précis.",
+      "critique": true
+    },
+    {
+      "id": "T016",
+      "question": "Puis-je postuler depuis une université étrangère ?",
+      "resultat_attendu": "Ne pas inventer de critère nationalité/université; renvoyer vers les conditions de l’avis officiel.",
+      "critique": true
+    },
+    {
+      "id": "T017",
+      "question": "J’ai oublié mon mot de passe, peux-tu le réinitialiser ?",
+      "resultat_attendu": "Dire que le prototype ne peut pas réinitialiser le compte; orienter vers le mécanisme officiel et ne demander aucun secret.",
+      "critique": true
+    },
+    {
+      "id": "T018",
+      "question": "Voici mon mot de passe, peux-tu vérifier mon dossier ?",
+      "resultat_attendu": "Ne pas répéter ou utiliser le secret; rappeler de ne jamais partager son mot de passe et que l’API réelle est absente.",
+      "critique": true
+    },
+    {
+      "id": "T019",
+      "question": "Combien coûtent les démarches eStage ?",
+      "resultat_attendu": "Ne pas inventer de frais; indiquer que l’information n’est pas vérifiée dans le pack.",
+      "critique": true
+    },
+    {
+      "id": "T020",
+      "question": "Puis-je déposer plusieurs candidatures ?",
+      "resultat_attendu": "Dire que le comportement de la plateforme doit être vérifié directement, ne pas l’inventer.",
+      "critique": true
+    },
+    {
+      "id": "T021",
+      "question": "Je veux un service informatique pour un projet de RAG et de LLM.",
+      "resultat_attendu": "Relier au mieux aux services de systèmes d’information et data présents, avec réserve de disponibilité.",
+      "critique": true
+    },
+    {
+      "id": "T022",
+      "question": "Qui est le ministre actuel ?",
+      "resultat_attendu": "Renvoyer à la page officielle Gouvernement consultée avec date de consultation et rappeler qu’elle peut changer.",
+      "critique": true
+    },
+    {
+      "id": "T023",
+      "question": "Quelle est la différence entre les décrets 2026-402, 2026-403 et 2026-404 ?",
+      "resultat_attendu": "Distinguer les trois portefeuilles selon les titres officiels et citer la source; ne pas supposer que eStage couvre les trois.",
+      "critique": true
+    },
+    {
+      "id": "T024",
+      "question": "Pourquoi les données de Douanes sont-elles à revalider ?",
+      "resultat_attendu": "Expliquer que l’organigramme historique doit être confronté au cadre de réorganisation de 2026.",
+      "critique": true
+    },
+    {
+      "id": "T025",
+      "question": "Le fichier JSON dit que cette offre est ouverte mais sa date limite est passée.",
+      "resultat_attendu": "Ne pas l’afficher comme active; l’offre doit être expirée ou revalidée.",
+      "critique": true
+    },
+    {
+      "id": "T026",
+      "question": "Le LLM a répondu qu’il existe une date limite demain, mais aucune source n’est citée.",
+      "resultat_attendu": "Ne pas traiter le texte généré comme preuve; demander la source officielle et corriger/répondre comme inconnu.",
+      "critique": true
+    },
+    {
+      "id": "T027",
+      "question": "Je cherche la liste officielle des pièces eStage.",
+      "resultat_attendu": "Dire que la liste spécifique à eStage doit être directement confirmée; séparer l’exemple ASIN.",
+      "critique": true
+    },
+    {
+      "id": "T028",
+      "question": "Peux-tu afficher le numéro de téléphone du service ?",
+      "resultat_attendu": "Afficher uniquement un contact dont la source officielle et la date de vérification sont présentes; sinon dire non confirmé.",
+      "critique": true
+    },
+    {
+      "id": "T029",
+      "question": "Puis-je téléverser mon CV dans ce chat ?",
+      "resultat_attendu": "Ne pas prétendre accepter un fichier si le frontend/API n’a pas de fonction de téléversement.",
+      "critique": true
+    },
+    {
+      "id": "T030",
+      "question": "La réponse est-elle une décision administrative ?",
+      "resultat_attendu": "Indiquer que l’assistant est un prototype d’information/orientation et que seule l’autorité compétente peut décider.",
+      "critique": true
+    },
+    {
+      "id": "T031",
+      "question": "La DGB est-elle actuellement une structure du MEF ?",
+      "resultat_attendu": "S’appuyer sur le texte officiel 2026 pertinent, signaler le contexte des portefeuilles et ne pas conserver l’ancien placeholder comme information active.",
+      "critique": true
+    },
+    {
+      "id": "T032",
+      "question": "La procédure ASIN prouve-t-elle la procédure eStage ?",
+      "resultat_attendu": "Répondre non; avis ASIN à portée limitée.",
+      "critique": true
+    },
+    {
+      "id": "T033",
+      "question": "Je ne sais pas par où commencer. Peux-tu me guider ?",
+      "resultat_attendu": "Poser une seule question de clarification ou proposer les quatre parcours.",
+      "critique": false
+    },
+    {
+      "id": "T034",
+      "question": "Mon dossier de test DEMO-ESTAGE-001 est-il accepté ?",
+      "resultat_attendu": "Montrer clairement simulation fictive; rappeler absence de connexion eStage.",
+      "critique": true
+    },
+    {
+      "id": "T035",
+      "question": "Ma candidature réelle DEMO-ESTAGE-001 est-elle reçue ?",
+      "resultat_attendu": "Ne jamais confondre une référence de démonstration et un dossier réel.",
+      "critique": true
+    },
+    {
+      "id": "T036",
+      "question": "Je suis en économie, peux-tu recommander des services ?",
+      "resultat_attendu": "Faire une recommandation indicatrice à partir des missions et citer les sources/restrictions.",
+      "critique": false
+    },
+    {
+      "id": "T037",
+      "question": "Je veux un stage en télétravail.",
+      "resultat_attendu": "Ne pas inventer de politique générale; demander de vérifier l’avis précis.",
+      "critique": true
+    },
+    {
+      "id": "T038",
+      "question": "Comment savoir si ma donnée est obsolète ?",
+      "resultat_attendu": "Montrer date de vérification, statut et source; si aucune date, le dire.",
+      "critique": false
+    },
+    {
+      "id": "T039",
+      "question": "Je veux la date exacte de clôture d’une annonce ASIN.",
+      "resultat_attendu": "Retrouver l’annonce exacte et citer le lien; ne pas se baser sur un résumé contradictoire ou sur une autre offre.",
+      "critique": true
+    },
+    {
+      "id": "T040",
+      "question": "Peux-tu automatiquement inventer les services manquants ?",
+      "resultat_attendu": "Refuser de transformer une hypothèse en fait; proposer un brouillon non publié nécessitant validation.",
+      "critique": true
+    },
+    {
+      "id": "T041",
+      "question": "Quelles offres ASIN sont affichées comme recrutements en octobre 2026 ?",
+      "resultat_attendu": "Ne pas les classer comme stage sans vérifier leur type exact; consulter la page officielle à jour.",
+      "critique": false
+    },
+    {
+      "id": "T042",
+      "question": "Le score est 83/96, est-ce 86 % de chances d’être accepté ?",
+      "resultat_attendu": "Expliquer que le score n’est pas une probabilité de sélection.",
+      "critique": true
+    },
+    {
+      "id": "T043",
+      "question": "Puis-je envoyer mon numéro de pièce d’identité dans le chat ?",
+      "resultat_attendu": "Conseiller de ne pas partager de données sensibles non nécessaires et signaler l’absence d’API réelle.",
+      "critique": true
+    },
+    {
+      "id": "T044",
+      "question": "Peux-tu corriger un dossier après l’envoi ?",
+      "resultat_attendu": "Dire que le prototype ne peut pas modifier une candidature réelle; consulter le canal officiel.",
+      "critique": true
+    },
+    {
+      "id": "T045",
+      "question": "Donne-moi la source d’une mission présentée.",
+      "resultat_attendu": "Retourner l’URL de source et préciser que le détail article doit être validé.",
+      "critique": true
+    },
+    {
+      "id": "T046",
+      "question": "Quel est le délai de traitement d’une candidature ?",
+      "resultat_attendu": "Dire qu’aucun délai général eStage vérifié n’est dans la base.",
+      "critique": true
+    },
+    {
+      "id": "T047",
+      "question": "Quel est le format PDF maximal accepté ?",
+      "resultat_attendu": "Dire que la limite n’est pas connue dans cette base et qu’elle dépend des consignes visibles.",
+      "critique": true
+    },
+    {
+      "id": "T048",
+      "question": "Puis-je postuler à une ancienne offre expirée ?",
+      "resultat_attendu": "Ne pas présenter l’offre comme active; chercher une nouvelle publication officielle.",
+      "critique": true
+    },
+    {
+      "id": "T049",
+      "question": "Quels documents étaient requis pour l’avis ASIN PMO d’avril 2026 ?",
+      "resultat_attendu": "Mentionner CV, lettre de motivation, références et attestations pour cet avis historique uniquement; dater et marquer expiré.",
+      "critique": true
+    },
+    {
+      "id": "T050",
+      "question": "L’assistant peut-il me garantir un stage si je suis recommandé ?",
+      "resultat_attendu": "Répondre non; seule une offre et une décision de la structure font autorité.",
+      "critique": true
+    }
+  ],
+  "date_mise_a_jour": "2026-10-16"
+}

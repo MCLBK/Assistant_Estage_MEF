@@ -1,0 +1,428 @@
+{
+  "version": "2.0",
+  "parcours": [
+    {
+      "id": "trouver-mon-stage",
+      "label": "Trouver mon stage",
+      "objectif": "Recommander des structures/services compatibles avec le profil et expliquer pourquoi.",
+      "champs_a_collecter": [
+        {
+          "id": "formation",
+          "label": "Formation/diplôme",
+          "required": true
+        },
+        {
+          "id": "niveau_etude",
+          "label": "Niveau d'études",
+          "required": true
+        },
+        {
+          "id": "specialite",
+          "label": "Spécialité",
+          "required": true
+        },
+        {
+          "id": "competences",
+          "label": "Compétences réellement maîtrisées",
+          "required": false
+        },
+        {
+          "id": "theme_stage",
+          "label": "Sujet ou domaine recherché",
+          "required": false
+        },
+        {
+          "id": "type_stage",
+          "label": "Stage académique, fin de cycle, autre",
+          "required": false
+        },
+        {
+          "id": "periode",
+          "label": "Période souhaitée",
+          "required": false
+        },
+        {
+          "id": "localisation",
+          "label": "Préférence géographique (si utile)",
+          "required": false
+        }
+      ],
+      "traitement": "Comparer avec profil_competences et services. Montrer structure/service, motifs exacts, source, niveau de confiance, et disclaimer que ce n'est pas une offre ouverte.",
+      "ne_pas_promettre": [
+        "stage disponible",
+        "sélection garantie",
+        "adéquation officielle du diplôme",
+        "accès assuré au service"
+      ],
+      "questions_exemples": [
+        "Je suis étudiant en informatique, où puis-je faire mon stage au MEF ?",
+        "Quelles structures correspondent à ma formation ?",
+        "Je suis en intelligence artificielle, quel service pourrait m'accueillir ?",
+        "J'étudie la Data Science. Quelles structures me recommandes-tu ?",
+        "Je suis développeur Python, où pourrais-je postuler ?",
+        "Je fais du Machine Learning. Y a-t-il des services adaptés à mon profil ?",
+        "Je suis en statistiques, quelles structures puis-je cibler ?",
+        "Je suis en économie, où puis-je faire mon stage ?",
+        "Je suis en comptabilité, quelle direction me conseilles-tu ?",
+        "Je suis étudiant en droit, quelles structures sont pertinentes ?",
+        "Je suis en gestion de projet, vers quel service m'orienter ?",
+        "Je suis en cybersécurité, quelles structures pourraient correspondre à mes compétences ?",
+        "Je suis en licence, puis-je rechercher un stage au MEF ?",
+        "Je suis en master, quelles possibilités de stage dois-je explorer ?",
+        "Je n'ai pas encore choisi de structure. Peux-tu m'aider ?",
+        "Quelles compétences dois-je avoir pour être pertinent dans une structure ?",
+        "Quelle est la différence entre une direction générale et une direction centrale ?",
+        "Peux-tu me proposer trois structures et expliquer pourquoi elles correspondent à mon profil ?",
+        "Quel service précis serait le plus adapté à mon sujet de mémoire ?",
+        "Mon sujet de stage porte sur l'automatisation des tâches administratives. Où m'orienter ?",
+        "Je veux travailler sur des données financières. Quelle structure explorer ?",
+        "Je cherche un sujet de stage en intelligence artificielle appliquée aux services publics.",
+        "Quelles structures pourraient accueillir un projet d'analyse prédictive ?",
+        "Mon profil combine développement web, IA et analyse de données. Où pourrais-je être utile ?",
+        "Je suis étudiant en intelligence artificielle, par où commencer ?",
+        "Je cherche un stage de data analyst au MEF.",
+        "Quelles directions correspondent à mes compétences Python et SQL ?",
+        "Je suis en comptabilité, quel service serait pertinent ?",
+        "Quels services ont des missions proches de mon sujet de mémoire ?",
+        "Je n'ai qu'une compétence principale. Peux-tu quand même me guider ?",
+        "Je suis en fin de cycle et je cherche un stage académique. Comment choisir une structure ?",
+        "Je cherche un stage en bases de données et conception d'API.",
+        "Je veux appliquer du NLP ou des grands modèles de langage dans l'administration publique.",
+        "Je voudrais travailler sur des tableaux de bord et des indicateurs de performance.",
+        "Je cherche un stage en analyse financière ou en contrôle de gestion.",
+        "Je veux faire un stage sur la digitalisation des procédures fiscales.",
+        "Je m'intéresse au suivi-évaluation des projets publics. Où chercher ?",
+        "Est-ce que tu peux comparer deux structures pour mon profil ?",
+        "Comment le score de recommandation est-il calculé ?",
+        "Une recommandation signifie-t-elle que cette structure recrute ?",
+        "Puis-je postuler si je ne possède pas toutes les compétences de la fiche ?",
+        "Puis-je demander un stage en télétravail ?",
+        "Je ne connais pas encore mon sujet de stage. Pose-moi les questions nécessaires.",
+        "Je suis étudiant en réseaux et télécommunications, où m'orienter ?",
+        "Je suis en finance et microfinance, quelles équipes sont pertinentes ?",
+        "Je suis en audit ou contrôle interne, quelle structure explorer ?",
+        "Je suis en droit fiscal ou fiscalité, quelles directions sont pertinentes ?",
+        "Je suis en gestion des ressources humaines ou fonction publique, quelle piste explorer ?",
+        "Je suis en logistique ou achats, quelle structure pourrait correspondre ?",
+        "Je suis en génie logiciel, quelle structure puis-je explorer ?",
+        "Je connais SQL, Excel et Power BI : quelles fonctions pourraient m'intéresser ?",
+        "Je veux travailler sur les paiements numériques et les systèmes de trésorerie.",
+        "Je m'intéresse aux données fiscales et aux modèles de prévision.",
+        "Je veux faire de la recherche en IA appliquée à la gestion publique.",
+        "Je souhaite apprendre la gestion des bases de données administratives.",
+        "Je cherche un sujet sur l'interopérabilité des systèmes publics.",
+        "Je suis à la recherche d'un stage d'observation, est-ce que ce profil est couvert ?",
+        "Puis-je être recommandé selon mon thème de mémoire plutôt que mon diplôme ?",
+        "Comment comparer l'adéquation de mon profil avec plusieurs services ?",
+        "Je suis étudiant en intelligence artificielle. Où puis-je faire mon stage au MEF ?",
+        "Quel service précis serait adapté à mes compétences ?",
+        "Quelles sont les conditions d'éligibilité ?",
+        "Y a-t-il une date limite pour postuler ?",
+        "Comment savoir si ma demande a été envoyée ?",
+        "Ma demande a-t-elle été reçue ?",
+        "Je ne sais pas par où commencer. Peux-tu me guider ?"
+      ],
+      "source_a_afficher": true,
+      "regle_information_manquante": "Dire clairement ce qui n’est pas connu; ne pas inventer une donnée administrative."
+    },
+    {
+      "id": "comprendre-procedure",
+      "label": "Comprendre la procédure",
+      "objectif": "Expliquer uniquement les étapes, documents, critères et dates que la source officielle concernée confirme.",
+      "champs_a_collecter": [
+        {
+          "id": "structure_cible",
+          "label": "Structure ou offre visée",
+          "required": false
+        },
+        {
+          "id": "type_candidature",
+          "label": "Candidature eStage ou avis de stage particulier",
+          "required": true
+        }
+      ],
+      "traitement": "Charger la procédure par systeme/structure/source_status. Si procédure eStage non vérifiée, donner le message de limite et orienter vers le site officiel.",
+      "ne_pas_promettre": [
+        "liste universelle de pièces",
+        "durée universelle",
+        "frais sans source",
+        "date limite inventée"
+      ],
+      "questions_exemples": [
+        "Comment faire une demande de stage au MEF ?",
+        "Comment utiliser la plateforme eStage ?",
+        "Quelles sont les étapes pour déposer une candidature ?",
+        "Quels documents dois-je fournir ?",
+        "Le CV est-il obligatoire ?",
+        "Faut-il joindre une lettre de motivation ?",
+        "Dois-je fournir une attestation de scolarité ?",
+        "Faut-il une lettre de recommandation ?",
+        "Quels formats de fichiers sont acceptés ?",
+        "Puis-je déposer une demande sans avoir encore mon diplôme ?",
+        "Quelles sont les conditions pour effectuer un stage au MEF ?",
+        "Existe-t-il une condition d'âge ?",
+        "Le stage est-il ouvert aux étudiants de toutes les universités ?",
+        "Un étudiant étranger peut-il déposer une candidature ?",
+        "Quelle est la durée habituelle d'un stage ?",
+        "Puis-je choisir la structure dans laquelle je souhaite effectuer mon stage ?",
+        "Puis-je demander un stage dans plusieurs structures ?",
+        "Comment rédiger une bonne lettre de motivation pour le MEF ?",
+        "Comment présenter mon sujet de stage dans ma demande ?",
+        "Comment corriger ma demande avant de la soumettre ?",
+        "Comment savoir si ma candidature a bien été envoyée ?",
+        "Vais-je recevoir une confirmation après le dépôt ?",
+        "Y a-t-il une date limite pour déposer une demande ?",
+        "Combien de temps faut-il pour obtenir une réponse ?",
+        "Comment modifier une demande déjà envoyée ?",
+        "Puis-je annuler une candidature ?",
+        "Que faire si je me suis trompé dans une information ?",
+        "À qui m'adresser si je rencontre un problème pendant le dépôt ?",
+        "Comment déposer une candidature sur eStage ?",
+        "Quelle est la durée du stage ?",
+        "Quels sont les critères d'éligibilité ?",
+        "Comment connaître la date limite ?",
+        "Y a-t-il des frais de candidature ?",
+        "Le stage est-il rémunéré ?",
+        "La procédure observée pour l'ASIN est-elle la même que celle du MEF ?",
+        "Comment faire si le formulaire demande une information que je n'ai pas ?",
+        "Puis-je enregistrer un brouillon avant l'envoi ?",
+        "Peut-on déposer plusieurs demandes au cours d'une même année ?",
+        "Puis-je changer de structure après avoir envoyé ma demande ?",
+        "Comment savoir si mes pièces jointes ont été enregistrées ?",
+        "Existe-t-il une procédure papier en plus de la demande en ligne ?",
+        "Est-ce que l'eStage accepte les candidatures spontanées ?",
+        "Faut-il une convention de stage signée par l'université ?",
+        "Faut-il une assurance ou une attestation de couverture ?",
+        "Y a-t-il des frais liés au stage ou à l'inscription ?",
+        "Où trouver les instructions officielles de candidature ?",
+        "Est-ce que la plateforme exige un compte étudiant ?",
+        "Un relevé de notes est-il obligatoire ?",
+        "Puis-je joindre des pièces après la soumission ?",
+        "Y a-t-il un accusé de réception officiel ?",
+        "Puis-je déposer une demande pour une période future ?",
+        "Une convention signée est-elle requise pour tous les stages ?",
+        "Quel est le format maximal autorisé pour un PDF ?",
+        "Est-ce qu'une candidature spontanée et une candidature à une offre sont différentes ?",
+        "Que faire si la plateforme affiche une date limite passée ?",
+        "Le dépôt en ligne suffit-il ou faut-il également remettre un dossier papier ?"
+      ],
+      "source_a_afficher": true,
+      "regle_information_manquante": "Dire clairement ce qui n’est pas connu; ne pas inventer une donnée administrative."
+    },
+    {
+      "id": "explorer-mef",
+      "label": "Explorer le MEF",
+      "objectif": "Parcourir les portefeuilles, structures, services, missions et sources.",
+      "champs_a_collecter": [],
+      "traitement": "Filtrer structures actives/non-demo; permettre recherche par nom, sigle, mission, service ou mot-clé; montrer date/source/statut.",
+      "ne_pas_promettre": [
+        "structure actuelle si statut obsolète",
+        "rattachement sans texte",
+        "contact non vérifié"
+      ],
+      "questions_exemples": [
+        "Que fait le Ministère de l'Économie et des Finances ?",
+        "Comment le MEF est-il organisé ?",
+        "Quelles sont les principales structures du ministère ?",
+        "Quelles sont les missions de la Direction Générale des Douanes ?",
+        "Quelle est la mission de la Direction Générale des Impôts ?",
+        "Quel est le rôle du Trésor et de la Comptabilité publique ?",
+        "Que fait l'Inspection Générale des Finances ?",
+        "Quelle est la différence entre les Impôts et les Douanes ?",
+        "Quels services composent la Direction Générale des Douanes ?",
+        "Existe-t-il un service informatique au sein de cette structure ?",
+        "Quel service s'occupe des systèmes d'information ?",
+        "Quelles structures travaillent sur les statistiques et les données ?",
+        "Où les activités de transformation numérique sont-elles documentées ?",
+        "Quelle structure intervient dans le suivi et l'évaluation des projets ?",
+        "Quels services sont liés à la gestion du budget ?",
+        "Que signifie DGDDI ?",
+        "Que signifie DGTCP ?",
+        "Que signifie DSI ?",
+        "Quelle est la différence entre une direction, un département et un service ?",
+        "Peux-tu m'expliquer cette structure dans un langage simple ?",
+        "Quelles missions de cette direction peuvent être liées à l'informatique ?",
+        "Quelle est la source officielle de cette information ?",
+        "Cette information est-elle confirmée ou s'agit-il d'une donnée de démonstration ?",
+        "Où trouver le site officiel de cette structure ?",
+        "Comment contacter cette structure, si ses coordonnées sont publiées officiellement ?",
+        "Quels portefeuilles ministériels sont décrits dans les textes de 2026 ?",
+        "Pourquoi existe-t-il plusieurs textes portant le nom du Ministère de l'Économie et des Finances ?",
+        "Quel est le ministre actuellement affiché pour le MEF ?",
+        "La DSI-MEF est-elle toujours le nom exact à utiliser ?",
+        "Quelles fonctions data existent dans les textes consultés ?",
+        "La DGB est-elle une donnée de démonstration ?",
+        "L'INStaD relève-t-il du périmètre eStage du MEF ?",
+        "La DGDDI relève-t-elle encore du même portefeuille dans la nouvelle organisation ?",
+        "Quelle structure travaille sur l'architecture et l'urbanisation des systèmes d'information ?",
+        "Qui s'occupe de l'intégration logicielle et du développement des applications ?",
+        "Quels services sont liés à la gouvernance des données ?",
+        "Où les missions de supervision de la microfinance sont-elles documentées ?",
+        "Où trouve-t-on les missions de financement du développement ?",
+        "Quelle structure est liée à la coopération internationale ?",
+        "Où chercher les missions de prévision fiscale et de contrôle fiscal ?",
+        "Quel service peut être lié à la production des comptes publics ?",
+        "Comment rechercher une structure par sigle ?",
+        "Comment savoir si la fiche d'une structure est à jour ?",
+        "Pourquoi une structure ancienne peut-elle être marquée comme historique ?",
+        "Peux-tu afficher les services et les sources d'une structure précise ?",
+        "Que signifie le statut partiellement confirmé ?",
+        "Qui est responsable de la mise à jour des informations du ministère ?",
+        "Quel portefeuille est chargé de la microfinance ?",
+        "Quel texte officiel décrit l'organisation générale du MEF en 2026 ?",
+        "Quel texte décrit le portefeuille Budget et Fonction publique ?",
+        "Quel texte porte sur la mobilisation des ressources extérieures et la dette ?",
+        "Le nom d'une direction peut-il avoir changé récemment ?",
+        "Comment distinguer une mission officielle d'un conseil de recommandation généré par l'assistant ?",
+        "Pourquoi la fiche de l'IGF comporte-t-elle une réserve de vérification ?",
+        "Pourquoi les informations sur les Douanes doivent-elles être confrontées au cadre de 2026 ?",
+        "L'Agence des Systèmes d'Information et du Numérique fait-elle automatiquement partie d'eStage ?",
+        "Comment savoir si une structure accueille actuellement des stagiaires ?",
+        "Quelles structures composent le MEF ?",
+        "Quelles sont les missions de cette direction ?",
+        "Quels services sont liés à l'informatique et aux données ?",
+        "Quelle est la source de cette information ?",
+        "Cette structure est-elle confirmée ou s'agit-il d'une donnée de démonstration ?"
+      ],
+      "source_a_afficher": true,
+      "regle_information_manquante": "Dire clairement ce qui n’est pas connu; ne pas inventer une donnée administrative."
+    },
+    {
+      "id": "verifier-dossier",
+      "label": "Vérifier mon dossier",
+      "objectif": "Afficher le statut réel uniquement via intégration eStage autorisée; autrement afficher une simulation.",
+      "champs_a_collecter": [
+        {
+          "id": "reference_dossier",
+          "label": "Référence de dossier (en mode réel uniquement et après authentification)",
+          "required": false
+        }
+      ],
+      "traitement": "Mode réel désactivé tant que l'API/identité/autorisations n'existent pas. Mode de démonstration séparé avec données fictives visibles comme telles.",
+      "ne_pas_promettre": [
+        "statut réel sans API",
+        "identité vérifiée par le nom seul",
+        "modification du dossier",
+        "valeur administrative d'une simulation"
+      ],
+      "questions_exemples": [
+        "Comment vérifier l'état de ma candidature ?",
+        "Où en est mon dossier ?",
+        "Ma demande a-t-elle bien été reçue ?",
+        "Comment savoir si mon dossier est complet ?",
+        "Quels documents manquent à mon dossier ?",
+        "Pourquoi ma demande est-elle indiquée comme incomplète ?",
+        "Ma candidature est-elle encore en cours de traitement ?",
+        "Que signifie le statut de mon dossier ?",
+        "Ma candidature a-t-elle été acceptée ?",
+        "Comment savoir si ma candidature a été rejetée ?",
+        "Pourquoi n'ai-je pas encore reçu de réponse ?",
+        "Comment retrouver ma référence de candidature ?",
+        "J'ai perdu mon numéro de dossier. Que dois-je faire ?",
+        "Comment mettre à jour mes documents ?",
+        "Comment corriger une erreur dans mon dossier ?",
+        "Puis-je retirer ma demande ?",
+        "Comment savoir si une action est attendue de ma part ?",
+        "À qui m'adresser si le statut de mon dossier semble incorrect ?",
+        "Mon dossier est-il accepté ?",
+        "Est-ce qu'il manque un document ?",
+        "Pourquoi mon dossier de démonstration n'apparaît pas dans eStage ?",
+        "Puis-je vérifier mon dossier avec mon nom ?",
+        "Puis-je télécharger ou modifier mes documents depuis cet assistant ?",
+        "Comment savoir si une candidature a été clôturée ?",
+        "Puis-je obtenir une notification sur le changement de statut ?",
+        "Comment confirmer que le statut affiché est authentique ?",
+        "Puis-je transmettre mon numéro de dossier dans le chat ?",
+        "Est-ce sécurisé de demander un statut avec seulement mon nom ?",
+        "L'assistant peut-il modifier le statut de ma candidature ?",
+        "Une simulation peut-elle être utilisée comme preuve de dépôt ?",
+        "Que dois-je faire si j'ai reçu un courriel de demande de complément ?",
+        "Où trouver une référence de dossier officielle si la plateforme en fournit une ?",
+        "Comment suivre mon dossier ?"
+      ],
+      "source_a_afficher": false,
+      "regle_information_manquante": "Dire clairement ce qui n’est pas connu; ne pas inventer une donnée administrative."
+    },
+    {
+      "id": "chercher-offre-active",
+      "label": "Chercher une offre active",
+      "objectif": "Repérer une annonce officielle encore valide, distincte d’une simple recommandation de structure.",
+      "champs_a_collecter": [
+        {
+          "id": "domaine",
+          "label": "Domaine recherché",
+          "required": false
+        },
+        {
+          "id": "niveau_etude",
+          "label": "Niveau",
+          "required": false
+        },
+        {
+          "id": "structure",
+          "label": "Structure recherchée",
+          "required": false
+        }
+      ],
+      "traitement": "Interroger uniquement un catalogue alimenté par des annonces officielles datées et vérifier le statut actif ainsi que la date limite. Le catalogue local est vide pour eStage.",
+      "ne_pas_promettre": [
+        "offre ouverte sans source",
+        "rémunération sans avis",
+        "date limite non vérifiée"
+      ]
+    },
+    {
+      "id": "assistance-technique",
+      "label": "Assistance technique",
+      "objectif": "Aider à décrire un problème et proposer un dépannage générique sans prétendre agir sur le compte.",
+      "champs_a_collecter": [
+        {
+          "id": "message_erreur",
+          "label": "Message exact de l’erreur",
+          "required": false
+        },
+        {
+          "id": "etape",
+          "label": "Étape concernée",
+          "required": false
+        }
+      ],
+      "traitement": "Fournir les vérifications génériques et orienter vers le contact support officiel s’il est publié.",
+      "ne_pas_promettre": [
+        "réinitialisation de mot de passe",
+        "réparation du compte",
+        "ticket support ouvert automatiquement"
+      ]
+    },
+    {
+      "id": "preparer-candidature",
+      "label": "Préparer ma candidature",
+      "objectif": "Aider à présenter le profil, le CV, la lettre et les projets de manière claire.",
+      "champs_a_collecter": [
+        {
+          "id": "formation",
+          "label": "Formation",
+          "required": false
+        },
+        {
+          "id": "competences",
+          "label": "Compétences",
+          "required": false
+        },
+        {
+          "id": "structure_cible",
+          "label": "Structure ou annonce ciblée",
+          "required": false
+        }
+      ],
+      "traitement": "Donner des conseils de rédaction et de préparation sans transformer les conseils en exigences officielles.",
+      "ne_pas_promettre": [
+        "sélection garantie",
+        "analyse d’un CV si le fichier n’est pas réellement pris en charge",
+        "liste de pièces obligatoire non vérifiée"
+      ]
+    }
+  ],
+  "date_mise_a_jour": "2026-10-16",
+  "note": "Les trois parcours complémentaires étendent l’accueil sans remplacer les quatre parcours demandés dans l’interface principale."
+}

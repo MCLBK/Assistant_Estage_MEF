@@ -1,0 +1,28 @@
+# Variables d'environnement et secrets
+.env
+*.env
+.env.*
+**/.env
+**/*.env
+!.env.example
+
+# Environnements Python
+venv/
+**/venv/
+.venv/
+**/.venv/
+
+# Fichiers Python temporaires
+__pycache__/
+*.py[cod]
+
+# Dépendances frontend
+node_modules/
+
+# Système
+.DS_Store
+Thumbs.db
+# Copies locales et sauvegarde du backend
+backend/data/faq (2).json
+backend/data/procedures (2).json
+backend/main_backup_before_phase2.py

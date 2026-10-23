@@ -1,0 +1,124 @@
+{
+  "version": "1.0",
+  "date_mise_a_jour": "2026-10-16",
+  "titre": "Contexte général — Assistant IA eStage MEF (Bénin)",
+  "statut": "base de connaissances pour un prototype de démonstration; pas un service administratif officiel intégré",
+  "ministere": {
+    "nom": "Ministère de l’Économie et des Finances (MEF)",
+    "site_officiel_reference": "https://finances.bj",
+    "site_source": "src-gouv-ministeres-2026",
+    "availability": "à vérifier au moment de l’utilisation; aucune conclusion permanente sur sa disponibilité ne doit être déduite d’une erreur d’accès"
+  },
+  "ministre_affiche_sur_le_portail_gouvernemental": {
+    "nom": "Aristide MEDENOU",
+    "date_verification": "2026-10-16",
+    "source_id": "src-gouv-ministeres-2026",
+    "regle": "Information susceptible de changer; revérifier sur le portail officiel avant réutilisation."
+  },
+  "plateforme_estage": {
+    "url": "https://estage-mef-front.vercel.app/",
+    "type": "application web de candidature / gestion de demandes de stage indiquée par le projet",
+    "fonctionnement_interne": "non vérifié directement dans ce pack",
+    "api_publique_documentee": false,
+    "connexion_reelle_du_prototype": false
+  },
+  "textes_organisation_2026": [
+    {
+      "numero": "2026-380",
+      "date": "2026-07-01",
+      "objet": "Structure-type des ministères",
+      "source_id": "src-mef-2026-380"
+    },
+    {
+      "numero": "2026-382",
+      "date": "2026-07-01",
+      "objet": "Attributions, organisation et fonctionnement du Ministère de l’Économie et des Finances",
+      "source_id": "src-mef-2026-382"
+    },
+    {
+      "numero": "2026-402",
+      "date": "2026-07-01",
+      "objet": "MEF en charge des Finances et de la Microfinance",
+      "source_id": "src-mef-2026-402"
+    },
+    {
+      "numero": "2026-403",
+      "date": "2026-07-01",
+      "objet": "MEF en charge du Budget et de la Fonction publique",
+      "source_id": "src-mef-2026-403"
+    },
+    {
+      "numero": "2026-404",
+      "date": "2026-07-01",
+      "objet": "MEF en charge de la Mobilisation des Ressources extérieures et de la Gestion de la Dette",
+      "source_id": "src-mef-2026-404"
+    }
+  ],
+  "interpretation_organisation": "Le SGG répertorie des textes distincts pour plusieurs portefeuilles portant des intitulés proches. Ne pas supposer que tous ces portefeuilles sont couverts par eStage; ce point doit être confirmé directement par la plateforme ou sa documentation.",
+  "quatre_parcours_principaux": [
+    {
+      "id": "trouver-mon-stage",
+      "nom": "Trouver mon stage",
+      "sortie": "recommandations indicatives structure/service avec raisons et sources"
+    },
+    {
+      "id": "comprendre-procedure",
+      "nom": "Comprendre la procédure",
+      "sortie": "étapes/documents uniquement s’ils sont confirmés pour la procédure ou l’avis exact"
+    },
+    {
+      "id": "explorer-mef",
+      "nom": "Explorer le MEF",
+      "sortie": "fiches de structures/services, missions, statuts et sources"
+    },
+    {
+      "id": "verifier-dossier",
+      "nom": "Vérifier mon dossier",
+      "sortie": "simulation fictive uniquement dans ce prototype; pas de statut réel"
+    }
+  ],
+  "autres_capacites_proposees": [
+    "chercher une offre publiée et validée",
+    "dépannage technique générique",
+    "aide à la préparation du CV/lettre/projet"
+  ],
+  "limitations": [
+    "Aucune connexion à une API eStage réelle n’est configurée dans le prototype.",
+    "Aucune offre active eStage n’est importée et vérifiée dans le catalogue local.",
+    "Les conditions d’éligibilité, documents obligatoires, frais, rémunération, télétravail, dates limites et délais eStage doivent être confirmés directement.",
+    "La procédure observée sur un avis ASIN ne peut pas être généralisée à eStage.",
+    "Les scores d’orientation ne sont ni des probabilités de sélection ni des offres ouvertes.",
+    "Les fiches historiques de Douanes, IGF, DSI-MEF, INStaD et tout rattachement ancien doivent être réconciliés avec l’organisation en vigueur.",
+    "Un catalogue local vide ne signifie pas qu’aucune offre n’existe sur les canaux officiels."
+  ],
+  "regles_fiabilite": [
+    "Citer la source primaire et vérifier l’article exact avant d’affirmer une mission juridique.",
+    "Conserver la date de dernière vérification.",
+    "Marquer toute donnée de démonstration comme fictive/non vérifiée.",
+    "Ne jamais inventer contact, offre, document obligatoire, délai ou statut de dossier.",
+    "Ne jamais demander mot de passe, OTP, pièce d’identité ou informations sensibles dans le chat.",
+    "Une réponse LLM n’est pas une source officielle."
+  ],
+  "sources_principales": [
+    {
+      "source_id": "src-sgg-decrets-catalogue-2026",
+      "url": "https://sgg.gouv.bj/documentheque/decrets/"
+    },
+    {
+      "source_id": "src-gouv-ministeres-2026",
+      "url": "https://www.gouv.bj/ministeres/"
+    },
+    {
+      "source_id": "src-estage-live",
+      "url": "https://estage-mef-front.vercel.app/"
+    },
+    {
+      "source_id": "src-asin-opportunites-2026",
+      "url": "https://asin.bj/opportunites/offres-emploi/"
+    },
+    {
+      "source_id": "src-asin-stage-pmo-2026",
+      "url": "https://asin.bj/opportunite/81/avis-recrutement-stagiaire-analytique/"
+    }
+  ]
+}

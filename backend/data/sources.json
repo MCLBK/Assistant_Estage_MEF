@@ -1,0 +1,188 @@
+{
+  "version": "2.0",
+  "date_pack": "2026-10-16",
+  "regle": "Une référence officielle du SGG établit l’existence et le titre d’un texte; pour affirmer le contenu d’un article, vérifier le texte intégral. Les statuts documentaires s'appliquent au contenu spécifique des fiches, pas automatiquement à toute la structure.",
+  "sources": [
+    {
+      "id": "src-mef-2026-382",
+      "titre": "Décret n° 2026-382 du 1er juillet 2026 portant attributions, organisation et fonctionnement du MEF",
+      "url": "https://sgg.gouv.bj/doc/decret-2026-382/download",
+      "type": "decret_officiel",
+      "date_document": "2026-07-01",
+      "portee": "Cadre général du MEF et coordination des portefeuilles délégués",
+      "status": "source_officielle_consultee",
+      "confiance": "élevée pour les éléments lus",
+      "note": "À utiliser comme référence générale récente ; comparer chaque détail avec les décrets spécialisés 2026-402, 2026-403 et 2026-404."
+    },
+    {
+      "id": "src-mef-2026-402",
+      "titre": "Décret n° 2026-402 du 1er juillet 2026 — MEF en charge des Finances et de la Microfinance",
+      "url": "https://sgg.gouv.bj/doc/decret-2026-402/download",
+      "type": "decret_officiel",
+      "date_document": "2026-07-01",
+      "portee": "Pôle informatique, DGI, DGTCP, secteur financier, microfinance, supervision des régies financières",
+      "status": "source_officielle_consultee",
+      "confiance": "élevée pour les articles relevés",
+      "note": "Les missions et services enregistrés dans ce pack sont transcrits à partir des pages consultées ; valider les détails avant publication institutionnelle."
+    },
+    {
+      "id": "src-mef-2026-403",
+      "titre": "Décret n° 2026-403 du 1er juillet 2026 — MEF en charge du Budget et de la Fonction publique",
+      "url": "https://sgg.gouv.bj/doc/decret-2026-403/download",
+      "type": "decret_officiel",
+      "date_document": "2026-07-01",
+      "portee": "Pôle informatique, DGB, matériel/logistique, fonction publique, travail, renforcement des capacités et employabilité, réformes et performances",
+      "status": "source_officielle_consultee",
+      "confiance": "élevée pour les articles relevés",
+      "note": "Comprend notamment des services IT et des départements de programmation budgétaire, solde, statistiques/gouvernance des données et suivi des performances."
+    },
+    {
+      "id": "src-mef-2026-404",
+      "titre": "Décret n° 2026-404 du 1er juillet 2026 — MEF en charge de la Mobilisation des Ressources extérieures et de la Gestion de la Dette",
+      "url": "https://sgg.gouv.bj/doc/decret-2026-404/download",
+      "type": "decret_officiel",
+      "date_document": "2026-07-01",
+      "portee": "Coopération internationale, financement du développement, suivi-évaluation de projets, pôle informatique",
+      "status": "source_officielle_consultee",
+      "confiance": "élevée pour les articles relevés",
+      "note": "Particulièrement pertinent pour data, indicateurs, collecte/analyse des données, suivi financier/physique, évaluation et IA/numérique."
+    },
+    {
+      "id": "src-mef-2026-380",
+      "titre": "Décret n° 2026-380 du 1er juillet 2026 fixant la structure-type des ministères",
+      "url": "https://sgg.gouv.bj/doc/decret-2026-380/download",
+      "type": "decret_officiel",
+      "date_document": "2026-07-01",
+      "portee": "Structure-type commune des ministères",
+      "status": "source_officielle_reference_identifiee",
+      "confiance": "élevée",
+      "note": "Vérifier le texte intégral et les éventuels textes ultérieurs avant toute réutilisation."
+    },
+    {
+      "id": "src-douanes-org",
+      "titre": "Organigramme officiel de la Direction Générale des Douanes",
+      "url": "https://douanes.gouv.bj/organigramme/",
+      "type": "site_officiel",
+      "date_document": "2026-01",
+      "portee": "Directions techniques, structures régionales et recettes des Douanes",
+      "status": "source_officielle_signalee_dans_recherche_phase1",
+      "confiance": "élevée pour organigramme/contact à reconsulter",
+      "note": "Le registre de phase 1 indique que l'arrêté n° 2022-457 du 27/07/2022 est la référence de l'organisation des Douanes. Revalider en direct avant publication."
+    },
+    {
+      "id": "src-asin-stage",
+      "titre": "Avis de stage ASIN relevés dans la recherche Phase 1",
+      "url": "https://asin.bj/doc/127/download",
+      "type": "avis_officiel_de_stage",
+      "date_document": "2026-04 (exemple cité dans recherche) ",
+      "portee": "Procédure observée uniquement pour des avis ASIN : candidature au portail service-public.bj, CV, lettre de motivation, références, attestations, délais d'avis, stages observés de six mois",
+      "status": "source_status_confirme_pour_ASIN_uniquement",
+      "confiance": "élevée pour l'avis ASIN qui le précise",
+      "note": "Ne surtout pas extrapoler cette procédure à eStage MEF sans confirmation directe."
+    },
+    {
+      "id": "src-estage-live",
+      "titre": "Plateforme eStage MEF (application dynamique)",
+      "url": "https://estage-mef-front.vercel.app/",
+      "type": "plateforme_candidature_a_verifier",
+      "date_document": null,
+      "portee": "Procédure eStage réelle et statut des candidatures",
+      "status": "acces_ou_fonctionnement_non_verifie_dans_ce_pack",
+      "confiance": "aucune pour les étapes et documents non observés",
+      "note": "Inspecter avec captures d'écran ou documentation/API autorisée ; ne pas déduire de procédure à partir des avis ASIN."
+    },
+    {
+      "id": "src-mef-finances-site",
+      "titre": "Site institutionnel MEF",
+      "url": "https://finances.bj",
+      "type": "site_officiel",
+      "date_document": null,
+      "portee": "Informations générales et structure",
+      "status": "indisponible_au_moment_de_la_recherche_phase1",
+      "confiance": "à réévaluer",
+      "note": "La phase 1 de recherche signalait une suspension d'hébergement en septembre 2026 ; retester avant usage."
+    },
+    {
+      "id": "src-acpr-decree",
+      "titre": "Décret n° 2023-311 du 14 juin 2023 portant création de l’ACPR (référence rapportée en phase 1)",
+      "url": null,
+      "type": "decret_officiel_reference_a_retrouver",
+      "date_document": "2023-06-14",
+      "portee": "Création / existence de l’ACPR",
+      "status": "reference_identifiee_texte_integral_non_joint",
+      "confiance": "moyenne à élevée pour existence selon registre Phase 1",
+      "note": "Reprendre le PDF officiel et confirmer tutelle/rattachement actuel au regard de la réorganisation de 2026."
+    },
+    {
+      "id": "src-igf-legacy",
+      "titre": "Textes historiques cités pour l’Inspection Générale des Finances",
+      "url": "https://sgg.gouv.bj/doc/decret-1997-177/download",
+      "type": "decrets_officiels_historiques",
+      "date_document": null,
+      "portee": "Éléments historiques et rattachement de l’IGF rapportés dans le registre de phase 1",
+      "status": "historique_a_confronter_au_cadre_2026",
+      "confiance": "moyenne",
+      "note": "Ne pas inférer que toutes les dispositions historiques sont encore en vigueur sans consolidation juridique."
+    },
+    {
+      "id": "src-sgg-decrets-catalogue-2026",
+      "titre": "Documenthèque officielle des décrets — Secrétariat général du Gouvernement du Bénin",
+      "url": "https://sgg.gouv.bj/documentheque/decrets/",
+      "type": "catalogue_officiel_decrets",
+      "date_document": null,
+      "portee": "Permet de vérifier la présence, le numéro, le titre et la date de publication des textes. Le catalogue seul ne remplace pas la lecture des articles du décret.",
+      "status": "source_officielle_consultee",
+      "confiance": "élevée pour les métadonnées du catalogue; le détail d’une disposition doit être vérifié dans le texte intégral",
+      "date_consultation": "2026-10-16",
+      "note": "Le catalogue consulté liste les décrets 2026-382, 2026-402, 2026-403, 2026-404 et 2026-380. Vérifier l’article pertinent avant toute présentation juridique."
+    },
+    {
+      "id": "src-gouv-ministeres-2026",
+      "titre": "Liste officielle des ministères — Gouvernement de la République du Bénin",
+      "url": "https://www.gouv.bj/ministeres/",
+      "type": "annuaire_gouvernemental_officiel",
+      "date_document": null,
+      "portee": "Vérification de l’appellation actuelle affichée d’un ministère et de son site institutionnel, à revérifier au moment de l’usage.",
+      "status": "source_officielle_consultee",
+      "confiance": "élevée pour la page consultée à cette date; susceptible de changer après remaniement",
+      "date_consultation": "2026-10-16",
+      "note": "La page consultée affiche le MEF et le nom du ministre Aristide MEDENOU au 16 octobre 2026. Ne pas coder ce nom comme vérité intemporelle."
+    },
+    {
+      "id": "src-asin-opportunites-2026",
+      "titre": "Liste des opportunités publiées par l’Agence des Systèmes d’Information et du Numérique (ASIN)",
+      "url": "https://asin.bj/opportunites/offres-emploi/",
+      "type": "page_officielle_opportunites",
+      "date_document": null,
+      "portee": "Point de départ pour vérifier une publication ASIN actuelle. La page peut inclure des emplois et autres opportunités, pas uniquement des stages.",
+      "status": "source_officielle_consultee",
+      "confiance": "élevée pour les annonces visibles au moment de la consultation; revérification obligatoire avant de déclarer une annonce active",
+      "date_consultation": "2026-10-16",
+      "note": "Ne jamais interpréter toutes les offres affichées comme des stages ni comme des offres du MEF/eStage."
+    },
+    {
+      "id": "src-asin-stage-pmo-2026",
+      "titre": "Avis de stage — Stagiaire PMO analytique, ASIN (publication historique)",
+      "url": "https://asin.bj/opportunite/81/avis-recrutement-stagiaire-analytique/",
+      "type": "avis_stage_officiel_historique",
+      "date_document": "2026-04-02",
+      "portee": "Exemple historique d’une procédure propre à cet avis ASIN. L’avis affiche une clôture le 15 avril 2026 et est expiré à la date du pack.",
+      "status": "confirmed_for_ASIN_only_expiree",
+      "confiance": "élevée pour l’avis concerné; ne prouve rien sur la procédure eStage ni sur les offres encore actives",
+      "date_consultation": "2026-10-16",
+      "note": "Le dossier de l’avis indique CV, lettre de motivation, références et attestations; ces pièces ne sont pas automatiquement des exigences de toutes les candidatures eStage."
+    },
+    {
+      "id": "src-service-public-asin-PS01334",
+      "titre": "Portail national des services publics — fiche de candidature liée à certains avis ASIN (PS01334)",
+      "url": "https://service-public.bj/public/services/service/PS01334",
+      "type": "portail_service_public",
+      "date_document": null,
+      "portee": "Lien utilisé dans certains avis ASIN. N’est pas la preuve d’une procédure eStage universelle.",
+      "status": "source_officielle_lien_reference",
+      "confiance": "élevée pour le lien cité dans l’avis concerné; portée limitée à la démarche associée",
+      "date_consultation": "2026-10-16",
+      "note": "Confirmer que le lien fonctionne et qu’il correspond toujours à l’avis précis avant de l’afficher dans une candidature réelle."
+    }
+  ]
+}

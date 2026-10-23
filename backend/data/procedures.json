@@ -1,0 +1,179 @@
+{
+  "version": "2.0",
+  "procedures": [
+    {
+      "id": "proc-estage-real",
+      "titre": "Procédure réelle de candidature sur eStage MEF",
+      "systeme": "eStage MEF",
+      "etapes": [],
+      "documents_requis": [],
+      "conditions_eligibilite": [],
+      "frais": null,
+      "delai_traitement": null,
+      "date_limite": null,
+      "lien_officiel": "https://estage-mef-front.vercel.app/",
+      "sources_ids": [
+        "src-estage-live"
+      ],
+      "source_status": "requires_direct_confirmation",
+      "niveau_confiance": "aucun pour les détails non inspectés",
+      "message_si_information_absente": "Le fonctionnement exact et les documents requis doivent être confirmés directement sur eStage ou dans sa documentation officielle. Je ne veux pas vous donner une procédure non vérifiée.",
+      "regle": "Ne jamais remplacer cette fiche avec la procédure observée de l'ASIN.",
+      "question_couvertes": [
+        "Comment déposer une candidature sur eStage ?",
+        "Quels documents dois-je fournir ?",
+        "Quelles sont les conditions d’éligibilité ?",
+        "Y a-t-il une date limite ?",
+        "Combien de temps faut-il pour obtenir une réponse ?",
+        "Puis-je modifier une demande ?"
+      ],
+      "reponse_de_secours": "La procédure exacte eStage n’a pas été vérifiée directement. Consulter les consignes affichées sur la plateforme et ne pas extrapoler la procédure ASIN.",
+      "champs_a_confirmer": [
+        "compte requis",
+        "étapes réelles du formulaire",
+        "documents obligatoires",
+        "formats et tailles de fichiers",
+        "conditions d’éligibilité",
+        "frais éventuels",
+        "date limite",
+        "accusé de réception",
+        "modification/annulation",
+        "suivi du dossier",
+        "contact support"
+      ],
+      "modele_donnees_manquantes": {
+        "etapes": [],
+        "documents_requis": [],
+        "conditions_eligibilite": [],
+        "frais": null,
+        "delai_traitement": null,
+        "date_limite": null
+      }
+    },
+    {
+      "id": "proc-asin-observee",
+      "titre": "Procédure observée dans des avis de stage ASIN (non généralisable à eStage)",
+      "systeme": "ASIN / service-public.bj",
+      "etapes": [
+        "Consulter un avis de stage de la structure concernée.",
+        "Suivre le lien de candidature indiqué dans cet avis (dans les exemples Phase 1 : portail national service-public.bj).",
+        "Joindre les pièces mentionnées par l'avis.",
+        "Respecter exactement la date et l'heure limites publiées."
+      ],
+      "documents_requis": [
+        "CV",
+        "Lettre de motivation",
+        "Références",
+        "Attestations"
+      ],
+      "duree_observee": "Six mois dans des exemples d'avis ASIN mentionnés en phase 1; dépend de l'avis considéré.",
+      "conditions_eligibilite": [],
+      "sources_ids": [
+        "src-asin-stage-pmo-2026",
+        "src-service-public-asin-PS01334"
+      ],
+      "source_status": "confirmed_for_ASIN_only",
+      "niveau_confiance": "élevé pour les avis ASIN concernés; non confirmé pour eStage",
+      "message_si_information_absente": "Cette procédure concerne des avis ASIN précis et ne doit pas être présentée comme la procédure officielle eStage MEF.",
+      "avertissement_temporel": "L’avis PMO analytique lié à cette fiche était clôturé le 15 avril 2026; il constitue un exemple historique, pas une offre encore ouverte au 16 octobre 2026.",
+      "questions_couvertes": [
+        "Quels documents figuraient dans l’avis ASIN PMO analytique ?",
+        "Comment la candidature de cet avis ASIN était-elle déposée ?"
+      ],
+      "date_limite_exemple": "2026-04-15T18:00:00+01:00",
+      "statut_avis": "expiree"
+    },
+    {
+      "id": "proc-preparation-generique",
+      "titre": "Préparer ses éléments avant de consulter une offre de stage",
+      "systeme": "Conseil général non administratif",
+      "etapes": [
+        "Identifier le diplôme, la spécialité et le niveau d'études.",
+        "Préparer un CV à jour et une lettre de motivation que l'on peut adapter à l'offre.",
+        "Rassembler les attestations ou pièces seulement si l'avis les demande.",
+        "Vérifier la structure, les tâches, le canal de candidature et la date limite sur la source officielle.",
+        "Conserver une copie de la candidature et de l'accusé de réception si la plateforme en fournit un."
+      ],
+      "documents_requis": [
+        {
+          "nom": "CV à jour",
+          "statut": "conseil_de_preparation_pas_exigence_universelle"
+        },
+        {
+          "nom": "Lettre de motivation adaptée",
+          "statut": "conseil_de_preparation_pas_exigence_universelle"
+        },
+        {
+          "nom": "Attestation/relevé/références",
+          "statut": "uniquement_si_l'avis_les_demande"
+        }
+      ],
+      "conditions_eligibilite": [],
+      "sources_ids": [],
+      "source_status": "general_advice_not_official_rule",
+      "niveau_confiance": "conseil pratique; ne constitue pas une règle MEF",
+      "message_si_information_absente": "Les pièces obligatoires ne sont celles listées que par l'avis ou la procédure officielle de candidature."
+    },
+    {
+      "id": "proc-preparation-technique",
+      "titre": "Dépannage général avant de solliciter le support",
+      "systeme": "Conseil général — ne décrit pas les écrans internes d’eStage",
+      "etapes": [
+        "Noter le message exact et l’étape où l’erreur apparaît.",
+        "Actualiser la page une seule fois et vérifier la connexion réseau.",
+        "Réessayer dans un navigateur à jour; ne pas transmettre de mot de passe ni de code.",
+        "Si un formulaire a peut-être été soumis, vérifier la confirmation avant toute seconde soumission.",
+        "Contacter le support indiqué officiellement sur la plateforme en donnant une description du problème et une capture expurgée des données personnelles."
+      ],
+      "documents_requis": [],
+      "conditions_eligibilite": [],
+      "frais": null,
+      "delai_traitement": null,
+      "date_limite": null,
+      "sources_ids": [
+        "src-estage-live"
+      ],
+      "source_status": "general_advice_not_official_rule",
+      "niveau_confiance": "conseil générique; ne constitue pas une procédure technique officielle d’eStage",
+      "message_si_information_absente": "La procédure de dépannage propre à eStage et ses contacts support doivent être vérifiés sur le site officiel.",
+      "regle": "Ne jamais demander des identifiants, mots de passe ou OTP dans le chat."
+    },
+    {
+      "id": "proc-preparer-dossier",
+      "titre": "Préparer les informations d’une candidature — checklist non officielle",
+      "systeme": "Conseil de préparation non administratif",
+      "etapes": [
+        "Préciser la formation, le niveau d’études et la spécialité.",
+        "Choisir les compétences réellement maîtrisées et les projets qui les démontrent.",
+        "Identifier une structure ou une annonce à partir de sources officielles.",
+        "Préparer un CV et, si c’est demandé, une lettre adaptée à l’avis.",
+        "Vérifier la liste exacte des pièces, les formats, la date limite et le lien de dépôt dans l’avis concerné.",
+        "Relire les champs et conserver l’accusé de réception si la plateforme en fournit un."
+      ],
+      "documents_requis": [
+        {
+          "nom": "CV à jour",
+          "statut": "conseil; exigence seulement si avis/formulaire le demande"
+        },
+        {
+          "nom": "Lettre de motivation",
+          "statut": "conseil; exigence seulement si avis/formulaire le demande"
+        },
+        {
+          "nom": "Attestations, relevés, références",
+          "statut": "joindre uniquement si l’avis ou le formulaire les demande"
+        }
+      ],
+      "conditions_eligibilite": [],
+      "frais": null,
+      "delai_traitement": null,
+      "date_limite": null,
+      "sources_ids": [],
+      "source_status": "general_advice_not_official_rule",
+      "niveau_confiance": "conseil de préparation non officiel",
+      "message_si_information_absente": "Les pièces obligatoires et les critères doivent venir de la procédure/annonce officielle correspondant à la candidature.",
+      "regle": "Ne jamais décrire la checklist comme une liste universelle de pièces obligatoires eStage."
+    }
+  ],
+  "date_mise_a_jour": "2026-10-16"
+}

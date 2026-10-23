@@ -1,0 +1,69 @@
+{
+  "version": "2.0",
+  "note": "Aucune offre active eStage n’est enregistrée dans ce catalogue local au 16 octobre 2026. Cela ne prouve pas qu’aucune offre existe; le flux officiel eStage n’est pas intégré. Ne jamais créer une offre active à partir de la seule recommandation d’une structure.",
+  "offres": [],
+  "modele_offre": {
+    "id": "offre-structure-annee-numero",
+    "intitule": "Titre exact repris de l'avis officiel",
+    "structure_id": "id_structure_existante",
+    "service_id": "id_service_si_connu",
+    "description_exacte": "Transcription ou résumé fidèle de l'avis, sans ajout supposé",
+    "missions": [],
+    "profils_recherches": [],
+    "competences_demandees": [],
+    "niveau_etude_requis": [],
+    "diplomes_acceptes": [],
+    "type_stage": "à reprendre de l'avis",
+    "duree": "à reprendre de l'avis",
+    "lieu": "à reprendre de l'avis",
+    "date_publication": "YYYY-MM-DD ou null",
+    "date_limite": "YYYY-MM-DD ou null",
+    "heure_limite": "heure exacte ou null",
+    "fuseau_horaire": "Africa/Porto-Novo si confirmé par l'avis",
+    "lien_candidature": "URL de l'avis ou du portail officiel",
+    "documents_requis": [],
+    "conditions_eligibilite": [],
+    "source_id": "id_source_officielle",
+    "source_status": "active_verifiee | expiree | a_verifier",
+    "derniere_verification": "YYYY-MM-DD",
+    "actif": false,
+    "notes_validation": "Validation humaine requise avant affichage"
+  },
+  "regles_affichage": [
+    "Ne jamais afficher une offre active si actif=false.",
+    "Une offre doit avoir un lien officiel source et une date de dernière vérification.",
+    "Passée la date limite, passer à expirée ou re-vérifier l'avis.",
+    "Ne pas transformer une structure recommandée en offre ouverte.",
+    "Les dates et pièces exigées doivent être copiées de l'avis, jamais inventées.",
+    "Ne jamais affirmer “aucune offre n’existe” uniquement parce que le catalogue local est vide; dire que le flux officiel n’est pas intégré.",
+    "Les opportunités ASIN peuvent inclure des recrutements et des offres qui ne sont pas des stages; examiner chaque avis.",
+    "Les offres archivées sont disponibles uniquement à titre d’exemple historique et doivent porter un badge “expirée”.",
+    "Une annonce expirée ne doit jamais être recommandée comme action de candidature actuelle."
+  ],
+  "date_mise_a_jour": "2026-10-16",
+  "sources_verification": [
+    "src-estage-live",
+    "src-asin-opportunites-2026"
+  ],
+  "archives_consultees": [
+    {
+      "id": "archive-asin-pmo-analytique-2026-04",
+      "intitule": "Stagiaire PMO analytique",
+      "structure": "ASIN",
+      "source_id": "src-asin-stage-pmo-2026",
+      "lien_officiel": "https://asin.bj/opportunite/81/avis-recrutement-stagiaire-analytique/",
+      "date_publication": "2026-04-02",
+      "date_limite": "2026-04-15",
+      "heure_limite": "18:00 heure de Cotonou (telle qu’indiquée dans l’avis lié)",
+      "documents_observes": [
+        "CV",
+        "Lettre de motivation",
+        "Références",
+        "Attestations"
+      ],
+      "statut": "expiree_historique",
+      "actif": false,
+      "note": "Exemple d’avis ASIN ancien, pas une offre actuelle ni une procédure eStage. Ne pas le présenter comme encore ouvert."
+    }
+  ]
+}

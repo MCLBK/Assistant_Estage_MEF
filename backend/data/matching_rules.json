@@ -1,0 +1,122 @@
+{
+  "version": "2.0",
+  "principes": [
+    "Une correspondance structure/profil est une recommandation indicative, pas une condition d'éligibilité ni une offre ouverte.",
+    "Les structures/services demo_data, deprecated ou au rattachement incertain sont filtrés par défaut.",
+    "Les réponses administratives doivent citer source_ids; l'absence de source déclenche une réponse d'incertitude.",
+    "Ne pas utiliser les services recommandés comme preuve que la structure accepte des stagiaires."
+  ],
+  "features_profile": [
+    "formation",
+    "specialite",
+    "niveau_etude",
+    "competences",
+    "theme_stage",
+    "type_stage"
+  ],
+  "suggested_weights": {
+    "skills_exact": 4,
+    "speciality_synonym": 3,
+    "domain_keyword": 2,
+    "mission_semantic": 2,
+    "training_match": 2,
+    "study_level_match": 1
+  },
+  "negative_rules": [
+    "Ne pas donner de points aux fiches démo ou obsolètes en production.",
+    "Ne pas traiter un mot-clé très générique comme preuve suffisante.",
+    "Ne pas afficher de score en pourcentage comme probabilité d'être recruté.",
+    "Ne pas dire 'service recrute' sans offre active avec source et date limite."
+  ],
+  "reason_format": [
+    "Votre formation ou spécialité correspond à ...",
+    "Les missions du service mentionnent ... (source ...)",
+    "Vos compétences ... peuvent être utiles pour ... (correspondance déduite)",
+    "La disponibilité d'un stage doit être confirmée via un avis officiel."
+  ],
+  "date_mise_a_jour": "2026-10-16",
+  "synonymes_a_normaliser": [
+    {
+      "forme": "IA",
+      "equivalents": [
+        "intelligence artificielle",
+        "AI"
+      ],
+      "note": "Équivalence de recherche, ne constitue pas un critère officiel d’éligibilité."
+    },
+    {
+      "forme": "Machine Learning",
+      "equivalents": [
+        "apprentissage automatique",
+        "ML"
+      ],
+      "note": "Équivalence de recherche."
+    },
+    {
+      "forme": "Data Science",
+      "equivalents": [
+        "science des données",
+        "data analyst",
+        "analyse de données"
+      ],
+      "note": "Distinguer les métiers si l’avis précise une spécialité."
+    },
+    {
+      "forme": "NLP",
+      "equivalents": [
+        "traitement automatique du langage naturel",
+        "TALN"
+      ],
+      "note": "Synonymes de recherche."
+    },
+    {
+      "forme": "BI",
+      "equivalents": [
+        "business intelligence",
+        "informatique décisionnelle",
+        "tableau de bord"
+      ],
+      "note": "Synonymes de recherche."
+    },
+    {
+      "forme": "ETL",
+      "equivalents": [
+        "extraction transformation chargement",
+        "pipeline de données"
+      ],
+      "note": "Synonymes de recherche."
+    },
+    {
+      "forme": "cyber",
+      "equivalents": [
+        "cybersécurité",
+        "sécurité informatique"
+      ],
+      "note": "Synonymes de recherche."
+    },
+    {
+      "forme": "développement logiciel",
+      "equivalents": [
+        "génie logiciel",
+        "développement applicatif",
+        "API"
+      ],
+      "note": "Synonymes de recherche."
+    }
+  ],
+  "hard_rules": [
+    "Une structure recommandée n’est pas une offre ouverte.",
+    "Un score de correspondance n’est ni une probabilité d’embauche ni une évaluation officielle.",
+    "Ne recommander que les structures dont la fiche est suffisamment documentée; signaler les fiches en consolidation.",
+    "Si la question porte sur une offre actuelle, chercher une annonce avec date de clôture et source plutôt que s’appuyer sur les missions de structure.",
+    "Si l’utilisateur ne donne pas de formation ni de compétence, demander une précision au lieu d’inventer son profil.",
+    "Ne pas pénaliser un candidat faute d’une compétence facultative si l’avis officiel ne l’exige pas."
+  ],
+  "score_interpretation": {
+    "label": "indice de correspondance",
+    "not_probability": true,
+    "not_eligibility_decision": true,
+    "not_offer_status": true,
+    "public_message": "Ce score est indicatif et sert à classer les pistes d’exploration; il ne garantit ni disponibilité ni sélection."
+  }
+}

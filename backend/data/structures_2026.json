@@ -1,0 +1,1241 @@
+{
+  "version": "2.0",
+  "date_pack": "2026-10-16",
+  "notes": [
+    "Fiches condensées pour prototype.",
+    "Les suggestions de profils sont indicatives.",
+    "Les structures périmètre ASIN, Douanes, ACPR et INStaD nécessitent la revalidation indiquée."
+  ],
+  "structures": [
+    {
+      "id": "mef",
+      "nom": "Ministère de l'Économie et des Finances",
+      "nom_court": "MEF",
+      "type_structure": "Ministère",
+      "portefeuille": "Cadre général",
+      "parent_structure": null,
+      "mission_resume": "Cadre général de coordination des politiques économiques et financières de l'État, organisé selon les textes de 2026 en portefeuilles spécialisés.",
+      "domaines_intervention": [
+        "finances publiques",
+        "budget",
+        "fiscalité",
+        "trésor",
+        "microfinance",
+        "secteur financier",
+        "ressources extérieures",
+        "dette",
+        "transformation numérique",
+        "statistiques et performance"
+      ],
+      "mots_cles": [
+        "MEF",
+        "ministère des finances",
+        "finances publiques",
+        "économie publique"
+      ],
+      "profils_formation_pertinents": [
+        "économie",
+        "finance",
+        "comptabilité",
+        "informatique",
+        "intelligence artificielle",
+        "statistiques",
+        "droit",
+        "gestion de projet",
+        "analyse de données"
+      ],
+      "competences_pertinentes": [],
+      "services_ids": [],
+      "sources_ids": [
+        "src-mef-2026-382",
+        "src-mef-2026-380"
+      ],
+      "source_status": "source_officielle_consultee",
+      "demo_data": false,
+      "note_orientation": "Pour l'orientation de stage, toujours préciser le portefeuille/service ciblé plutôt que recommander le MEF de façon trop générale.",
+      "derniere_verification": "2026-10-16",
+      "structures_enfants_ids": [],
+      "date_derniere_verification": "2026-10-16",
+      "alias": []
+    },
+    {
+      "id": "port-finances-microfinance",
+      "nom": "Ministère de l'Économie et des Finances, en charge des Finances et de la Microfinance",
+      "nom_court": "Finances / Microfinance",
+      "type_structure": "Portefeuille ministériel délégué",
+      "portefeuille": "Finances et Microfinance",
+      "parent_structure": "mef",
+      "mission_resume": "Gestion des finances publiques, fiscalité, trésor, secteur financier, microfinance et inclusion financière.",
+      "domaines_intervention": [
+        "finances publiques",
+        "fiscalité",
+        "trésor",
+        "microfinance",
+        "secteur financier",
+        "inclusion financière",
+        "données financières"
+      ],
+      "mots_cles": [
+        "finances",
+        "fiscalité",
+        "impôts",
+        "trésor",
+        "comptabilité publique",
+        "microfinance",
+        "data financière"
+      ],
+      "profils_formation_pertinents": [
+        "finance",
+        "économie",
+        "comptabilité",
+        "informatique",
+        "intelligence artificielle",
+        "data science",
+        "statistiques",
+        "droit fiscal"
+      ],
+      "competences_pertinentes": [
+        "analyse financière",
+        "SQL",
+        "Python",
+        "tableaux de bord",
+        "gouvernance des données",
+        "développement logiciel"
+      ],
+      "services_ids": [],
+      "sources_ids": [
+        "src-mef-2026-402"
+      ],
+      "source_status": "source_officielle_consultee",
+      "demo_data": false,
+      "note_orientation": "Favorable aux profils finance, data, BI, systèmes d'information et microfinance selon le service visé.",
+      "derniere_verification": "2026-10-16 (pack de travail; revalidation humaine requise)",
+      "structures_enfants_ids": [
+        "dc-supervision-regies",
+        "dg-microfinance",
+        "dg-secteur-financier",
+        "dgi",
+        "dgtcp",
+        "pole-info-finances"
+      ],
+      "date_derniere_verification": "2026-10-16",
+      "alias": []
+    },
+    {
+      "id": "port-budget-fp",
+      "nom": "Ministère de l'Économie et des Finances, en charge du Budget et de la Fonction publique",
+      "nom_court": "Budget / Fonction publique",
+      "type_structure": "Portefeuille ministériel délégué",
+      "portefeuille": "Budget et Fonction publique",
+      "parent_structure": "mef",
+      "mission_resume": "Politique budgétaire, préparation et suivi budgétaire, dépenses publiques, fonction publique, travail, performance et renforcement des capacités.",
+      "domaines_intervention": [
+        "budget",
+        "finances publiques",
+        "solde",
+        "fonction publique",
+        "travail",
+        "performance publique",
+        "statistiques"
+      ],
+      "mots_cles": [
+        "budget",
+        "programmation budgétaire",
+        "solde",
+        "dépenses publiques",
+        "fonction publique",
+        "performance",
+        "statistiques"
+      ],
+      "profils_formation_pertinents": [
+        "économie",
+        "finance",
+        "comptabilité",
+        "informatique",
+        "data science",
+        "statistiques",
+        "gestion publique",
+        "ressources humaines"
+      ],
+      "competences_pertinentes": [
+        "analyse de données",
+        "prévision",
+        "tableaux de bord",
+        "Python",
+        "SQL",
+        "statistiques",
+        "gestion de projet"
+      ],
+      "services_ids": [],
+      "sources_ids": [
+        "src-mef-2026-403"
+      ],
+      "source_status": "source_officielle_consultee",
+      "demo_data": false,
+      "note_orientation": "Bon ensemble à explorer pour budget, data, systèmes d'information, RH publique et suivi des performances.",
+      "derniere_verification": "2026-10-16 (pack de travail; revalidation humaine requise)",
+      "structures_enfants_ids": [
+        "dgb",
+        "pole-info-budget"
+      ],
+      "date_derniere_verification": "2026-10-16",
+      "alias": []
+    },
+    {
+      "id": "port-ressources-dette",
+      "nom": "Ministère de l'Économie et des Finances, en charge de la Mobilisation des Ressources extérieures et de la Gestion de la Dette",
+      "nom_court": "Ressources extérieures / Dette",
+      "type_structure": "Portefeuille ministériel délégué",
+      "portefeuille": "Mobilisation des ressources extérieures et Gestion de la Dette",
+      "parent_structure": "mef",
+      "mission_resume": "Mobilisation de financements, coopération internationale, suivi-évaluation des projets financés sur ressources extérieures et gestion de la dette.",
+      "domaines_intervention": [
+        "coopération internationale",
+        "financement du développement",
+        "dette publique",
+        "suivi-évaluation",
+        "gestion de projets",
+        "données de projets"
+      ],
+      "mots_cles": [
+        "ressources extérieures",
+        "financement",
+        "dette",
+        "projets",
+        "suivi évaluation",
+        "indicateurs",
+        "coopération"
+      ],
+      "profils_formation_pertinents": [
+        "économie",
+        "finance",
+        "statistiques",
+        "informatique",
+        "data science",
+        "gestion de projet",
+        "relations internationales"
+      ],
+      "competences_pertinentes": [
+        "analyse de données",
+        "indicateurs",
+        "suivi-évaluation",
+        "Python",
+        "Power BI",
+        "statistiques",
+        "gestion de projet"
+      ],
+      "services_ids": [],
+      "sources_ids": [
+        "src-mef-2026-404"
+      ],
+      "source_status": "source_officielle_consultee",
+      "demo_data": false,
+      "note_orientation": "Pertinent pour data science appliquée au suivi de projets, indicateurs, évaluation et financement du développement.",
+      "derniere_verification": "2026-10-16 (pack de travail; revalidation humaine requise)",
+      "structures_enfants_ids": [
+        "dg-cooperation-internationale",
+        "dg-financement-developpement",
+        "dg-suivi-evaluation-projets",
+        "pole-info-ressources"
+      ],
+      "date_derniere_verification": "2026-10-16",
+      "alias": []
+    },
+    {
+      "id": "pole-info-finances",
+      "nom": "Pôle informatique — portefeuille Finances et Microfinance",
+      "nom_court": "Pôle informatique",
+      "type_structure": "Service technique / informatique",
+      "portefeuille": "Finances et Microfinance",
+      "parent_structure": "port-finances-microfinance",
+      "mission_resume": "Gestion et coordination des systèmes d'information, bases de données administratives/financières/décisionnelles, intégration, sécurité, outils de pilotage et aide à la décision.",
+      "domaines_intervention": [
+        "systèmes d'information",
+        "données financières",
+        "bases de données",
+        "aide à la décision",
+        "transformation numérique",
+        "inclusion financière"
+      ],
+      "mots_cles": [
+        "informatique",
+        "système d'information",
+        "base de données",
+        "décisionnel",
+        "business intelligence",
+        "BI",
+        "data governance",
+        "interopérabilité",
+        "digital"
+      ],
+      "profils_formation_pertinents": [
+        "informatique",
+        "intelligence artificielle",
+        "data science",
+        "génie logiciel",
+        "réseaux",
+        "statistiques"
+      ],
+      "competences_pertinentes": [
+        "Python",
+        "SQL",
+        "API",
+        "modélisation de données",
+        "ETL",
+        "BI",
+        "sécurité",
+        "développement logiciel",
+        "ML"
+      ],
+      "services_ids": [
+        "dept-gestion-projets-fin",
+        "dept-gouvernance-donnees-fin",
+        "dept-solutions-digitales-fin",
+        "dept-infrastructure-fin",
+        "dept-ressources-fin"
+      ],
+      "sources_ids": [
+        "src-mef-2026-402"
+      ],
+      "source_status": "source_officielle_consultee",
+      "demo_data": false,
+      "note_orientation": "Correspondance forte pour profils IA/data/logiciel sur la base des missions officielles. Cela ne prouve pas l'existence d'une offre de stage.",
+      "derniere_verification": "2026-10-16 (pack de travail; revalidation humaine requise)",
+      "structures_enfants_ids": [],
+      "date_derniere_verification": "2026-10-16",
+      "alias": [
+        "informatique",
+        "systèmes d’information",
+        "data",
+        "développement logiciel"
+      ]
+    },
+    {
+      "id": "dgi",
+      "nom": "Direction générale des Impôts",
+      "nom_court": "DGI",
+      "type_structure": "Direction générale",
+      "portefeuille": "Finances et Microfinance",
+      "parent_structure": "port-finances-microfinance",
+      "mission_resume": "Compétente notamment sur la fiscalité intérieure, les impôts directs et indirects, les taxes assimilées, l'enregistrement et le timbre.",
+      "domaines_intervention": [
+        "fiscalité",
+        "impôts",
+        "données fiscales",
+        "contrôle fiscal",
+        "prévision fiscale",
+        "facturation électronique"
+      ],
+      "mots_cles": [
+        "impôts",
+        "fiscalité",
+        "contrôle fiscal",
+        "facturation électronique",
+        "renseignement fiscal",
+        "analyse de données",
+        "informatique"
+      ],
+      "profils_formation_pertinents": [
+        "fiscalité",
+        "droit",
+        "comptabilité",
+        "finance",
+        "économie",
+        "informatique",
+        "data science",
+        "statistiques"
+      ],
+      "competences_pertinentes": [
+        "analyse de données",
+        "SQL",
+        "Python",
+        "systèmes d'information",
+        "statistiques",
+        "contrôle",
+        "prévision"
+      ],
+      "services_ids": [
+        "dept-informatique-dgi",
+        "dept-prevision-fiscale",
+        "dept-legislation-contentieux",
+        "dept-planification-evaluation",
+        "recette-nationale-impots",
+        "dept-gestion-facturation-electronique",
+        "dept-controle-fiscal",
+        "dept-renseignement-fraude",
+        "dept-grandes-entreprises",
+        "dept-moyennes-entreprises"
+      ],
+      "sources_ids": [
+        "src-mef-2026-402"
+      ],
+      "source_status": "source_officielle_consultee",
+      "demo_data": false,
+      "note_orientation": "Pour IA/data, explorer en priorité le département informatique, la prévision/études et le suivi des réformes ou la facturation électronique, si ces domaines correspondent au travail réellement proposé.",
+      "derniere_verification": "2026-10-16 (pack de travail; revalidation humaine requise)",
+      "structures_enfants_ids": [],
+      "date_derniere_verification": "2026-10-16",
+      "alias": [
+        "Impôts",
+        "Direction générale des Impôts"
+      ]
+    },
+    {
+      "id": "dgtcp",
+      "nom": "Direction générale du Trésor et de la Comptabilité publique",
+      "nom_court": "DGTCP",
+      "type_structure": "Direction générale",
+      "portefeuille": "Finances et Microfinance",
+      "parent_structure": "port-finances-microfinance",
+      "mission_resume": "Gestion du Trésor, comptabilité publique, recettes et paiements publics, comptes publics, opérations monétaires/financières et aspects de la dette selon les attributions décrites par le décret.",
+      "domaines_intervention": [
+        "trésor public",
+        "comptabilité publique",
+        "paiements publics",
+        "monétique",
+        "statistiques",
+        "dette"
+      ],
+      "mots_cles": [
+        "trésor",
+        "comptabilité publique",
+        "paiement",
+        "monétique",
+        "recettes publiques",
+        "comptes publics",
+        "dette",
+        "statistiques",
+        "informatique"
+      ],
+      "profils_formation_pertinents": [
+        "comptabilité",
+        "finance",
+        "économie",
+        "informatique",
+        "statistiques",
+        "data science"
+      ],
+      "competences_pertinentes": [
+        "analyse de données",
+        "SQL",
+        "Python",
+        "comptabilité publique",
+        "statistiques",
+        "automatisation",
+        "systèmes de paiement"
+      ],
+      "services_ids": [
+        "dept-affaires-monetaires",
+        "dept-reglementation-comptable",
+        "dept-planification-statistiques-tresor",
+        "dept-etudes-reformes-tresor",
+        "dept-recettes-tresor",
+        "dept-paiements-monetique",
+        "dept-informatique-tresor",
+        "dept-production-comptes",
+        "dept-finances-locales"
+      ],
+      "sources_ids": [
+        "src-mef-2026-402"
+      ],
+      "source_status": "source_officielle_consultee",
+      "demo_data": false,
+      "note_orientation": "Pertinent pour finance publique, comptabilité, données de paiement, statistiques et systèmes informatiques. Vérifier les missions exactes du service avant recommandation détaillée.",
+      "derniere_verification": "2026-10-16 (pack de travail; revalidation humaine requise)",
+      "structures_enfants_ids": [],
+      "date_derniere_verification": "2026-10-16",
+      "alias": [
+        "Trésor public",
+        "Comptabilité publique"
+      ]
+    },
+    {
+      "id": "dg-secteur-financier",
+      "nom": "Direction générale du Secteur financier",
+      "nom_court": "Secteur financier",
+      "type_structure": "Direction générale",
+      "portefeuille": "Finances et Microfinance",
+      "parent_structure": "port-finances-microfinance",
+      "mission_resume": "Supervision et suivi du secteur financier, notamment banques, offices financiers digitaux, assurances, microfinance et statistiques financières.",
+      "domaines_intervention": [
+        "banques",
+        "services financiers digitaux",
+        "assurances",
+        "microfinance",
+        "statistiques financières",
+        "supervision"
+      ],
+      "mots_cles": [
+        "secteur financier",
+        "banque",
+        "fintech",
+        "assurance",
+        "statistiques financières",
+        "supervision digitale",
+        "microfinance"
+      ],
+      "profils_formation_pertinents": [
+        "finance",
+        "économie",
+        "statistiques",
+        "informatique",
+        "data science",
+        "droit"
+      ],
+      "competences_pertinentes": [
+        "analyse de données",
+        "statistiques",
+        "indicateurs",
+        "Python",
+        "SQL",
+        "analyse des risques"
+      ],
+      "services_ids": [
+        "dept-suivi-banques-offices-digitaux",
+        "dept-supervision-microfinance",
+        "dept-etudes-statistiques-financieres"
+      ],
+      "sources_ids": [
+        "src-mef-2026-402"
+      ],
+      "source_status": "source_officielle_consultee",
+      "demo_data": false,
+      "note_orientation": "Orientation possible pour analyse de données/indicateurs financiers; ne pas promettre d'accès à des données sensibles.",
+      "derniere_verification": "2026-10-16 (pack de travail; revalidation humaine requise)",
+      "structures_enfants_ids": [],
+      "date_derniere_verification": "2026-10-16",
+      "alias": []
+    },
+    {
+      "id": "dg-microfinance",
+      "nom": "Direction générale de la Microfinance et de l’Inclusion financière",
+      "nom_court": "Microfinance / Inclusion financière",
+      "type_structure": "Direction générale",
+      "portefeuille": "Finances et Microfinance",
+      "parent_structure": "port-finances-microfinance",
+      "mission_resume": "Coordination, conception, suivi et mise en œuvre des orientations relatives à la microfinance et à l'inclusion financière.",
+      "domaines_intervention": [
+        "microfinance",
+        "inclusion financière",
+        "services financiers digitaux",
+        "indicateurs sociaux et financiers"
+      ],
+      "mots_cles": [
+        "microfinance",
+        "inclusion financière",
+        "finance inclusive",
+        "mobile money",
+        "fintech",
+        "statistiques"
+      ],
+      "profils_formation_pertinents": [
+        "finance",
+        "économie",
+        "statistiques",
+        "informatique",
+        "data science",
+        "développement"
+      ],
+      "competences_pertinentes": [
+        "analyse de données",
+        "statistiques",
+        "enquête",
+        "indicateurs",
+        "tableaux de bord"
+      ],
+      "services_ids": [
+        "dept-microfinance",
+        "dept-inclusion-financiere"
+      ],
+      "sources_ids": [
+        "src-mef-2026-402"
+      ],
+      "source_status": "source_officielle_consultee",
+      "demo_data": false,
+      "note_orientation": "Bon angle pour études statistiques, inclusion financière et analyse d'indicateurs si un projet/stage est réellement ouvert.",
+      "derniere_verification": "2026-10-16 (pack de travail; revalidation humaine requise)",
+      "structures_enfants_ids": [],
+      "date_derniere_verification": "2026-10-16",
+      "alias": []
+    },
+    {
+      "id": "dc-supervision-regies",
+      "nom": "Direction centrale de la Supervision des Régies financières",
+      "nom_court": "Supervision des régies financières",
+      "type_structure": "Direction centrale",
+      "portefeuille": "Finances et Microfinance",
+      "parent_structure": "port-finances-microfinance",
+      "mission_resume": "Suivi de la performance des régies financières et appui à la politique fiscale selon le décret consulté.",
+      "domaines_intervention": [
+        "recettes publiques",
+        "performances",
+        "politique fiscale",
+        "tableaux de bord"
+      ],
+      "mots_cles": [
+        "régies financières",
+        "performance",
+        "indicateurs",
+        "fiscalité",
+        "dashboard",
+        "tableau de bord"
+      ],
+      "profils_formation_pertinents": [
+        "économie",
+        "finance",
+        "statistiques",
+        "informatique",
+        "data science"
+      ],
+      "competences_pertinentes": [
+        "analyse de données",
+        "KPI",
+        "Power BI",
+        "SQL",
+        "statistiques"
+      ],
+      "services_ids": [
+        "dept-suivi-performances-regies",
+        "dept-politique-fiscale"
+      ],
+      "sources_ids": [
+        "src-mef-2026-402"
+      ],
+      "source_status": "source_officielle_consultee",
+      "demo_data": false,
+      "note_orientation": "Piste intéressante pour business intelligence et suivi des performances publiques; missions précisées au niveau du service par source officielle.",
+      "derniere_verification": "2026-10-16 (pack de travail; revalidation humaine requise)",
+      "structures_enfants_ids": [],
+      "date_derniere_verification": "2026-10-16",
+      "alias": []
+    },
+    {
+      "id": "pole-info-budget",
+      "nom": "Pôle informatique — portefeuille Budget et Fonction publique",
+      "nom_court": "Pôle informatique",
+      "type_structure": "Service technique / informatique",
+      "portefeuille": "Budget et Fonction publique",
+      "parent_structure": "port-budget-fp",
+      "mission_resume": "Gestion des systèmes d'information, architecture/urbanisation, développement/intégration, infrastructures/sécurité, gouvernance des données, statistiques et suivi d'exploitation.",
+      "domaines_intervention": [
+        "systèmes d'information",
+        "budget",
+        "données",
+        "statistiques",
+        "sécurité informatique",
+        "développement et intégration"
+      ],
+      "mots_cles": [
+        "informatique",
+        "architecture",
+        "développement",
+        "intégration",
+        "sécurité informatique",
+        "gouvernance des données",
+        "statistiques",
+        "suivi exploitation"
+      ],
+      "profils_formation_pertinents": [
+        "informatique",
+        "intelligence artificielle",
+        "data science",
+        "génie logiciel",
+        "cybersécurité",
+        "statistiques"
+      ],
+      "competences_pertinentes": [
+        "Python",
+        "SQL",
+        "API",
+        "data engineering",
+        "BI",
+        "architecture logicielle",
+        "cybersécurité",
+        "ML"
+      ],
+      "services_ids": [
+        "dept-architecture-urbanisation-budget",
+        "dept-developpement-integration-budget",
+        "dept-infrastructures-securite-budget",
+        "dept-gouvernance-donnees-statistiques-budget"
+      ],
+      "sources_ids": [
+        "src-mef-2026-403"
+      ],
+      "source_status": "source_officielle_consultee",
+      "demo_data": false,
+      "note_orientation": "Correspondance forte pour IA, ingénierie logicielle, data engineering, statistiques et infrastructure; disponibilité d'un stage à confirmer.",
+      "derniere_verification": "2026-10-16 (pack de travail; revalidation humaine requise)",
+      "structures_enfants_ids": [],
+      "date_derniere_verification": "2026-10-16",
+      "alias": [
+        "informatique",
+        "systèmes d’information",
+        "data",
+        "développement logiciel"
+      ]
+    },
+    {
+      "id": "dgb",
+      "nom": "Direction générale du Budget",
+      "nom_court": "DGB",
+      "type_structure": "Direction générale",
+      "portefeuille": "Budget et Fonction publique",
+      "parent_structure": "port-budget-fp",
+      "mission_resume": "Pilotage de missions budgétaires de l'État et gestion des départements spécialisés dont programmation/synthèse budgétaire, investissements, pensions, solde, informatique et suivi des relations avec collectivités/opérateurs.",
+      "domaines_intervention": [
+        "budget de l'État",
+        "programmation budgétaire",
+        "solde",
+        "pensions",
+        "investissement public",
+        "informatique budgétaire"
+      ],
+      "mots_cles": [
+        "budget",
+        "programmation budgétaire",
+        "solde",
+        "pensions",
+        "dépenses publiques",
+        "informatique",
+        "prévision",
+        "statistiques"
+      ],
+      "profils_formation_pertinents": [
+        "économie",
+        "finance",
+        "comptabilité",
+        "informatique",
+        "statistiques",
+        "data science",
+        "gestion publique"
+      ],
+      "competences_pertinentes": [
+        "analyse budgétaire",
+        "prévision",
+        "statistiques",
+        "Python",
+        "SQL",
+        "tableaux de bord",
+        "développement logiciel"
+      ],
+      "services_ids": [
+        "dept-programmation-politiques-budgetaires",
+        "dept-solde",
+        "dept-informatique-dgb"
+      ],
+      "sources_ids": [
+        "src-mef-2026-403"
+      ],
+      "source_status": "source_officielle_consultee",
+      "demo_data": false,
+      "note_orientation": "La DGB ne doit plus être traitée comme un placeholder demo_data : un décret officiel de 2026 la mentionne. Les opportunités de stage restent à confirmer.",
+      "derniere_verification": "2026-10-16 (pack de travail; revalidation humaine requise)",
+      "structures_enfants_ids": [],
+      "date_derniere_verification": "2026-10-16",
+      "alias": [
+        "Budget",
+        "Direction générale du Budget"
+      ]
+    },
+    {
+      "id": "pole-info-ressources",
+      "nom": "Pôle informatique — portefeuille Ressources extérieures et Dette",
+      "nom_court": "Pôle informatique",
+      "type_structure": "Service technique / informatique",
+      "portefeuille": "Ressources extérieures et Gestion de la Dette",
+      "parent_structure": "port-ressources-dette",
+      "mission_resume": "Développement/intégration d'applications, infrastructures/systèmes/support, et gestion des ressources; le portefeuille emploie aussi les systèmes numériques pour le suivi de projets et la gestion de dette.",
+      "domaines_intervention": [
+        "applications",
+        "infrastructures",
+        "support IT",
+        "données de projets",
+        "dette",
+        "suivi-évaluation"
+      ],
+      "mots_cles": [
+        "informatique",
+        "développement logiciel",
+        "intégration",
+        "support",
+        "systèmes",
+        "données",
+        "projets",
+        "IA"
+      ],
+      "profils_formation_pertinents": [
+        "informatique",
+        "intelligence artificielle",
+        "data science",
+        "génie logiciel",
+        "réseaux",
+        "statistiques"
+      ],
+      "competences_pertinentes": [
+        "Python",
+        "SQL",
+        "API",
+        "développement",
+        "analyse de données",
+        "data visualisation",
+        "sécurité"
+      ],
+      "services_ids": [],
+      "sources_ids": [
+        "src-mef-2026-404"
+      ],
+      "source_status": "source_officielle_consultee",
+      "demo_data": false,
+      "note_orientation": "Piste pour logiciel/data, suivi de projets et systèmes d'information; les tâches exactes de stage doivent être liées à un besoin validé.",
+      "derniere_verification": "2026-10-16 (pack de travail; revalidation humaine requise)",
+      "structures_enfants_ids": [],
+      "date_derniere_verification": "2026-10-16",
+      "alias": [
+        "informatique",
+        "systèmes d’information",
+        "data",
+        "développement logiciel"
+      ]
+    },
+    {
+      "id": "dg-cooperation-internationale",
+      "nom": "Direction générale de la Coopération internationale",
+      "nom_court": "DGCI",
+      "type_structure": "Direction générale",
+      "portefeuille": "Ressources extérieures et Gestion de la Dette",
+      "parent_structure": "port-ressources-dette",
+      "mission_resume": "Stratégie, programmes/opérations et partenariats institutionnels et stratégiques liés à la coopération internationale.",
+      "domaines_intervention": [
+        "coopération",
+        "partenariats",
+        "programmes",
+        "stratégie",
+        "prospective"
+      ],
+      "mots_cles": [
+        "coopération internationale",
+        "partenariat",
+        "prospective",
+        "programmes",
+        "innovation"
+      ],
+      "profils_formation_pertinents": [
+        "relations internationales",
+        "économie",
+        "gestion de projet",
+        "statistiques",
+        "informatique"
+      ],
+      "competences_pertinentes": [
+        "analyse",
+        "rédaction",
+        "gestion de projet",
+        "suivi d'indicateurs",
+        "data visualisation"
+      ],
+      "services_ids": [],
+      "sources_ids": [
+        "src-mef-2026-404"
+      ],
+      "source_status": "source_officielle_consultee",
+      "demo_data": false,
+      "note_orientation": "Piste d'orientation pour gestion de projets, analyse et data appliquée à la coopération; pas une offre publiée.",
+      "derniere_verification": "2026-10-16 (pack de travail; revalidation humaine requise)",
+      "structures_enfants_ids": [],
+      "date_derniere_verification": "2026-10-16",
+      "alias": []
+    },
+    {
+      "id": "dg-financement-developpement",
+      "nom": "Direction générale du Financement du Développement",
+      "nom_court": "DGFD",
+      "type_structure": "Direction générale",
+      "portefeuille": "Ressources extérieures et Gestion de la Dette",
+      "parent_structure": "port-ressources-dette",
+      "mission_resume": "Mobilisation des financements et pilotage stratégique de la performance, contrôle qualité, financement des investissements privés, suivi des réformes et transformation digitale.",
+      "domaines_intervention": [
+        "financement du développement",
+        "financements",
+        "performance",
+        "réformes",
+        "transformation digitale"
+      ],
+      "mots_cles": [
+        "financement développement",
+        "mobilisation financements",
+        "performance",
+        "réformes",
+        "digitalisation",
+        "indicateurs"
+      ],
+      "profils_formation_pertinents": [
+        "finance",
+        "économie",
+        "gestion de projet",
+        "statistiques",
+        "informatique",
+        "data science"
+      ],
+      "competences_pertinentes": [
+        "analyse de données",
+        "modélisation financière",
+        "KPI",
+        "Power BI",
+        "Excel",
+        "statistiques"
+      ],
+      "services_ids": [
+        "dept-mobilisation-financements",
+        "dept-reformes-transformation-digitale"
+      ],
+      "sources_ids": [
+        "src-mef-2026-404"
+      ],
+      "source_status": "source_officielle_consultee",
+      "demo_data": false,
+      "note_orientation": "Piste pour analyse de données économiques/financières, suivi de performance et projets de transformation digitale.",
+      "derniere_verification": "2026-10-16 (pack de travail; revalidation humaine requise)",
+      "structures_enfants_ids": [],
+      "date_derniere_verification": "2026-10-16",
+      "alias": []
+    },
+    {
+      "id": "dg-suivi-evaluation-projets",
+      "nom": "Direction générale du Suivi et de l'Évaluation des Projets",
+      "nom_court": "DGSEProj",
+      "type_structure": "Direction générale",
+      "portefeuille": "Ressources extérieures et Gestion de la Dette",
+      "parent_structure": "port-ressources-dette",
+      "mission_resume": "Suivi de l'exécution physique et financière des projets/programmes, collecte et analyse de données, indicateurs, évaluations ex ante/ex post et suivi de la performance.",
+      "domaines_intervention": [
+        "suivi-évaluation",
+        "projets financés",
+        "données physiques et financières",
+        "indicateurs",
+        "évaluation"
+      ],
+      "mots_cles": [
+        "suivi évaluation",
+        "projets",
+        "indicateurs",
+        "collecte de données",
+        "analyse de données",
+        "évaluation ex ante",
+        "évaluation ex post",
+        "performance"
+      ],
+      "profils_formation_pertinents": [
+        "statistiques",
+        "économie",
+        "data science",
+        "informatique",
+        "gestion de projet",
+        "finance"
+      ],
+      "competences_pertinentes": [
+        "Python",
+        "Excel",
+        "Power BI",
+        "SQL",
+        "indicateurs",
+        "statistiques",
+        "analyse",
+        "visualisation"
+      ],
+      "services_ids": [
+        "dept-suivi-execution-projets",
+        "dept-evaluation-performance-projets"
+      ],
+      "sources_ids": [
+        "src-mef-2026-404"
+      ],
+      "source_status": "source_officielle_consultee",
+      "demo_data": false,
+      "note_orientation": "Très bonne correspondance potentielle pour Data Science, BI, analyse statistique ou aide à la décision; vérification obligatoire des besoins et accès données.",
+      "derniere_verification": "2026-10-16 (pack de travail; revalidation humaine requise)",
+      "structures_enfants_ids": [],
+      "date_derniere_verification": "2026-10-16",
+      "alias": []
+    },
+    {
+      "id": "igf",
+      "nom": "Inspection Générale des Finances",
+      "nom_court": "IGF",
+      "type_structure": "Service de contrôle / inspection",
+      "portefeuille": "Cadre général — à relire dans le décret 2026-382",
+      "parent_structure": "mef",
+      "mission_resume": "L'IGF est mentionnée dans le cadre général comme fonction d'inspection/contrôle du MEF et des portefeuilles délégués; la portée détaillée doit être reprise directement du texte consolidé.",
+      "domaines_intervention": [
+        "inspection",
+        "contrôle",
+        "audit",
+        "finances publiques",
+        "conformité"
+      ],
+      "mots_cles": [
+        "audit",
+        "inspection",
+        "contrôle interne",
+        "conformité",
+        "finances publiques"
+      ],
+      "profils_formation_pertinents": [
+        "audit",
+        "comptabilité",
+        "finance",
+        "droit",
+        "économie",
+        "statistiques"
+      ],
+      "competences_pertinentes": [
+        "audit",
+        "analyse",
+        "contrôle interne",
+        "comptabilité publique"
+      ],
+      "services_ids": [],
+      "sources_ids": [
+        "src-mef-2026-382",
+        "src-igf-legacy"
+      ],
+      "source_status": "a_consolider_avec_texte_2026",
+      "demo_data": false,
+      "note_orientation": "Ne pas utiliser seulement les décrets historiques pour déclarer les attributions actuelles détaillées.",
+      "derniere_verification": "2026-10-16 (pack de travail; revalidation humaine requise)",
+      "structures_enfants_ids": [],
+      "date_derniere_verification": "2026-10-16",
+      "alias": []
+    },
+    {
+      "id": "dgddi",
+      "nom": "Direction Générale des Douanes et Droits Indirects",
+      "nom_court": "DGDDI / Douanes",
+      "type_structure": "Direction générale",
+      "portefeuille": "Rattachement actuel à confirmer dans le cadre 2026",
+      "parent_structure": null,
+      "mission_resume": "Administration douanière : législation et réglementation douanières, perception des droits et taxes afférents et contrôle des opérations douanières, selon les sources de la phase 1 à revalider contre l'organisation de 2026.",
+      "domaines_intervention": [
+        "douanes",
+        "commerce extérieur",
+        "fiscalité douanière",
+        "contrôle des marchandises",
+        "systèmes d'information",
+        "statistiques commerciales"
+      ],
+      "mots_cles": [
+        "douanes",
+        "import",
+        "export",
+        "commerce extérieur",
+        "droits et taxes",
+        "contrôle",
+        "renseignement",
+        "fraude",
+        "systèmes d'information"
+      ],
+      "profils_formation_pertinents": [
+        "droit",
+        "économie",
+        "commerce international",
+        "informatique",
+        "statistiques",
+        "data science"
+      ],
+      "competences_pertinentes": [
+        "analyse de données commerciales",
+        "SQL",
+        "Python",
+        "développement logiciel",
+        "analyse réglementaire"
+      ],
+      "services_ids": [
+        "douanes-direction-systemes-information",
+        "douanes-statistiques-comptabilite"
+      ],
+      "sources_ids": [
+        "src-douanes-org"
+      ],
+      "source_status": "source_phase1_a_reconcilier_avec_decrets_2026",
+      "demo_data": false,
+      "note_orientation": "La phase 1 fournit l'organigramme et des contacts. Revalider le rattachement administratif et les noms exacts avant publication.",
+      "derniere_verification": "2026-10-16 (pack de travail; revalidation humaine requise)",
+      "structures_enfants_ids": [],
+      "rattachement_a_verifier": true,
+      "date_derniere_verification": "2026-10-16",
+      "alias": [
+        "Douanes",
+        "Direction générale des Douanes"
+      ]
+    },
+    {
+      "id": "asin",
+      "nom": "Agence des Systèmes d'Information et du Numérique",
+      "nom_court": "ASIN",
+      "type_structure": "Agence nationale / double tutelle selon phase 1",
+      "portefeuille": "Double tutelle rapportée en phase 1; tutelle actuelle à revalider",
+      "parent_structure": null,
+      "mission_resume": "Mise en œuvre opérationnelle de programmes et projets numériques; des avis de stage ont été signalés en phase 1.",
+      "domaines_intervention": [
+        "numérique",
+        "systèmes d'information",
+        "gestion de projet",
+        "transformation digitale",
+        "data"
+      ],
+      "mots_cles": [
+        "numérique",
+        "informatique",
+        "systèmes d'information",
+        "gestion de projet",
+        "IA",
+        "data",
+        "PMO"
+      ],
+      "profils_formation_pertinents": [
+        "informatique",
+        "intelligence artificielle",
+        "génie logiciel",
+        "gestion de projet",
+        "data science"
+      ],
+      "competences_pertinentes": [
+        "Python",
+        "développement",
+        "analyse de données",
+        "gestion de projet",
+        "outils collaboratifs"
+      ],
+      "services_ids": [],
+      "sources_ids": [
+        "src-asin-stage"
+      ],
+      "source_status": "phase1_confirme_a_revalider_tutelle_2026",
+      "demo_data": false,
+      "note_orientation": "Des avis de stage ASIN sont mentionnés dans le registre fourni. Ils ne prouvent ni qu'une offre est encore ouverte, ni que la procédure s'applique à eStage.",
+      "derniere_verification": "2026-10-16 (pack de travail; revalidation humaine requise)",
+      "structures_enfants_ids": [],
+      "rattachement_a_verifier": true,
+      "date_derniere_verification": "2026-10-16",
+      "alias": []
+    },
+    {
+      "id": "acpr",
+      "nom": "Agence de Collecte des Paiements et du Recouvrement",
+      "nom_court": "ACPR",
+      "type_structure": "Agence / organisme public",
+      "portefeuille": "Rattachement actuel à revalider après réorganisation 2026",
+      "parent_structure": null,
+      "mission_resume": "Agence dont la création par décret n° 2023-311 est rapportée en phase 1; missions détaillées et tutelle actuelle à confirmer au texte officiel.",
+      "domaines_intervention": [
+        "paiements publics",
+        "recouvrement",
+        "finances publiques"
+      ],
+      "mots_cles": [
+        "recouvrement",
+        "paiements",
+        "créances publiques",
+        "finance",
+        "informatique"
+      ],
+      "profils_formation_pertinents": [
+        "finance",
+        "comptabilité",
+        "gestion",
+        "informatique"
+      ],
+      "competences_pertinentes": [
+        "analyse de données",
+        "SQL",
+        "développement",
+        "processus de paiement"
+      ],
+      "services_ids": [],
+      "sources_ids": [
+        "src-acpr-decree"
+      ],
+      "source_status": "reference_a_revalider_2026",
+      "demo_data": false,
+      "note_orientation": "Ne pas compléter les services ni la tutelle sur supposition.",
+      "derniere_verification": "2026-10-16 (pack de travail; revalidation humaine requise)",
+      "structures_enfants_ids": [],
+      "rattachement_a_verifier": true,
+      "date_derniere_verification": "2026-10-16",
+      "alias": []
+    },
+    {
+      "id": "dgb-legacy-placeholder",
+      "nom": "Ancienne fiche placeholder DGB (à migrer/supprimer)",
+      "nom_court": "DGB-DEMO",
+      "type_structure": "PLACEHOLDER",
+      "portefeuille": "À supprimer après migration",
+      "parent_structure": "mef",
+      "mission_resume": "Enregistrement de démonstration de la phase 1, désormais remplacé par la fiche DGB adossée au décret 2026-403.",
+      "domaines_intervention": [],
+      "mots_cles": [],
+      "profils_formation_pertinents": [],
+      "competences_pertinentes": [],
+      "services_ids": [],
+      "sources_ids": [
+        "src-mef-2026-403"
+      ],
+      "source_status": "deprecated_replace_with_dgb",
+      "demo_data": true,
+      "note_orientation": "Fiche de démonstration ou rattachement non vérifié; ne pas présenter comme une structure actuelle confirmée.",
+      "derniere_verification": "2026-10-16 (pack de travail; revalidation humaine requise)",
+      "structures_enfants_ids": [],
+      "date_derniere_verification": "2026-10-16",
+      "alias": []
+    },
+    {
+      "id": "instad-demo",
+      "nom": "Institut National de la Statistique et de la Démographie",
+      "nom_court": "INStaD",
+      "type_structure": "Organisme public à tutelle à vérifier",
+      "portefeuille": "À déterminer",
+      "parent_structure": null,
+      "mission_resume": "La phase 1 n'avait pas établi de manière fiable le rattachement et le périmètre actuel dans la base eStage. Rechercher un texte officiel et confirmer l'éligibilité de l'organisme au périmètre eStage.",
+      "domaines_intervention": [
+        "statistiques",
+        "démographie",
+        "analyse de données"
+      ],
+      "mots_cles": [
+        "statistiques",
+        "data",
+        "démographie",
+        "analyse de données"
+      ],
+      "profils_formation_pertinents": [
+        "statistiques",
+        "économie",
+        "informatique",
+        "data science"
+      ],
+      "competences_pertinentes": [
+        "Python",
+        "R",
+        "statistiques",
+        "visualisation"
+      ],
+      "services_ids": [],
+      "sources_ids": [],
+      "source_status": "not_found_tutelle_a_verifier",
+      "demo_data": true,
+      "note_orientation": "Fiche de démonstration ou rattachement non vérifié; ne pas présenter comme une structure actuelle confirmée.",
+      "derniere_verification": "2026-10-16 (pack de travail; revalidation humaine requise)",
+      "structures_enfants_ids": [],
+      "rattachement_a_verifier": true,
+      "date_derniere_verification": "2026-10-16",
+      "alias": []
+    }
+  ],
+  "regles_affichage": [
+    "Les trois portefeuilles sont décrits par des décrets officiels distincts de 2026; eStage doit confirmer lesquels relèvent de son périmètre.",
+    "Les noms et rattachements historiques doivent être réconciliés avec les textes récents avant publication.",
+    "Les profils de formation et compétences servent au matching indicatif et ne sont pas des critères d’éligibilité.",
+    "La présence d’un service dans l’organigramme ne signifie pas qu’il accueille des stagiaires.",
+    "Les anciennes fiches DGB placeholder / INStaD démo doivent rester masquées ou marquées comme historiques/non vérifiées."
+  ]
+}

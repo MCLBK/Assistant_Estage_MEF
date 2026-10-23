@@ -1,0 +1,51 @@
+{
+  "version": "1.0",
+  "demo_only": true,
+  "note": "Les enregistrements sont entièrement fictifs. Ne jamais les connecter à un vrai système de candidature.",
+  "dossiers": [
+    {
+      "id": "DEMO-ESTAGE-001",
+      "demo_data": true,
+      "candidate": {
+        "prenom": "Amina (fictif)",
+        "nom": "Demo (fictif)"
+      },
+      "date_depot": "2026-09-15",
+      "structure_demandee": "Pôle informatique — portefeuille Budget et Fonction publique (exemple fictif)",
+      "statut": "En cours de traitement — SIMULATION",
+      "historique": [
+        {
+          "date": "2026-09-15",
+          "etat": "Dossier soumis (simulation)"
+        },
+        {
+          "date": "2026-09-17",
+          "etat": "Contrôle initial (simulation)"
+        }
+      ],
+      "message": "DOSSIER FICTIF. Ceci n'est pas connecté à eStage et ne correspond à aucune vraie demande."
+    },
+    {
+      "id": "DEMO-ESTAGE-002",
+      "demo_data": true,
+      "candidate": {
+        "prenom": "Kossi (fictif)",
+        "nom": "Test (fictif)"
+      },
+      "date_depot": "2026-09-20",
+      "structure_demandee": "Direction générale du Suivi et de l'Évaluation des Projets (exemple fictif)",
+      "statut": "Pièce à compléter — SIMULATION",
+      "historique": [
+        {
+          "date": "2026-09-20",
+          "etat": "Dossier soumis (simulation)"
+        },
+        {
+          "date": "2026-09-22",
+          "etat": "Demande fictive de complément de document"
+        }
+      ],
+      "message": "DOSSIER FICTIF. Ne pas utiliser de vraies données personnelles dans le mode démo."
+    }
+  ]
+}

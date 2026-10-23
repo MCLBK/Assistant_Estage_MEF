@@ -1,0 +1,2083 @@
+{
+  "version": "2.0",
+  "services": [
+    {
+      "id": "dept-gestion-projets-fin",
+      "structure_id": "pole-info-finances",
+      "nom": "Département Gestion des Projets",
+      "missions_resume": "Département du Pôle informatique ; tâches spécifiques de stage non précisées dans le décret consulté.",
+      "mots_cles": [
+        "projet",
+        "informatique",
+        "digital"
+      ],
+      "profils_formation_pertinents": [
+        "informatique",
+        "gestion de projet",
+        "génie logiciel"
+      ],
+      "competences_pertinentes": [
+        "gestion de projet",
+        "analyse fonctionnelle"
+      ],
+      "sources_ids": [
+        "src-mef-2026-402"
+      ],
+      "source_status": "source_officielle_consultee",
+      "note": "Nom et appartenance au Pôle informatique documentés; ne pas inventer de projets de stage.",
+      "synonymes": [
+        "Département Gestion des Projets"
+      ],
+      "date_derniere_verification": "2026-10-16",
+      "note_orientation": "La correspondance de compétences est indicative; aucun accueil de stagiaire n’est garanti."
+    },
+    {
+      "id": "dept-gouvernance-donnees-fin",
+      "structure_id": "pole-info-finances",
+      "nom": "Département de la Gouvernance des Données et de l’Interopérabilité",
+      "missions_resume": "Gouvernance des données et interopérabilité au sein du portefeuille Finances/Microfinance.",
+      "mots_cles": [
+        "données",
+        "gouvernance",
+        "interopérabilité",
+        "bases de données",
+        "informatique",
+        "systèmes d’information",
+        "data",
+        "transformation numérique"
+      ],
+      "profils_formation_pertinents": [
+        "data science",
+        "informatique",
+        "statistiques"
+      ],
+      "competences_pertinentes": [
+        "SQL",
+        "modélisation de données",
+        "qualité de données",
+        "API"
+      ],
+      "sources_ids": [
+        "src-mef-2026-402"
+      ],
+      "source_status": "source_officielle_consultee",
+      "note": "",
+      "synonymes": [
+        "Département de la Gouvernance des Données et de l’Interopérabilité"
+      ],
+      "date_derniere_verification": "2026-10-16",
+      "note_orientation": "La correspondance de compétences est indicative; aucun accueil de stagiaire n’est garanti."
+    },
+    {
+      "id": "dept-solutions-digitales-fin",
+      "structure_id": "pole-info-finances",
+      "nom": "Département des Solutions Digitales et des Archives Numériques",
+      "missions_resume": "Solutions numériques et archives numériques.",
+      "mots_cles": [
+        "digitalisation",
+        "archives numériques",
+        "applications",
+        "informatique",
+        "systèmes d’information",
+        "data",
+        "transformation numérique"
+      ],
+      "profils_formation_pertinents": [
+        "informatique",
+        "génie logiciel"
+      ],
+      "competences_pertinentes": [
+        "Python",
+        "développement logiciel",
+        "gestion de données"
+      ],
+      "sources_ids": [
+        "src-mef-2026-402"
+      ],
+      "source_status": "source_officielle_consultee",
+      "note": "",
+      "synonymes": [
+        "Département des Solutions Digitales et des Archives Numériques"
+      ],
+      "date_derniere_verification": "2026-10-16",
+      "note_orientation": "La correspondance de compétences est indicative; aucun accueil de stagiaire n’est garanti."
+    },
+    {
+      "id": "dept-infrastructure-fin",
+      "structure_id": "pole-info-finances",
+      "nom": "Département de l’Infrastructure",
+      "missions_resume": "Infrastructure IT du portefeuille Finances/Microfinance.",
+      "mots_cles": [
+        "infrastructure",
+        "systèmes",
+        "réseaux"
+      ],
+      "profils_formation_pertinents": [
+        "réseaux",
+        "cybersécurité",
+        "informatique"
+      ],
+      "competences_pertinentes": [
+        "administration systèmes",
+        "réseaux",
+        "sécurité"
+      ],
+      "sources_ids": [
+        "src-mef-2026-402"
+      ],
+      "source_status": "source_officielle_consultee",
+      "note": "",
+      "synonymes": [
+        "Département de l’Infrastructure"
+      ],
+      "date_derniere_verification": "2026-10-16",
+      "note_orientation": "La correspondance de compétences est indicative; aucun accueil de stagiaire n’est garanti."
+    },
+    {
+      "id": "dept-ressources-fin",
+      "structure_id": "pole-info-finances",
+      "nom": "Département de la Gestion des ressources (Pôle informatique)",
+      "missions_resume": "Gestion des ressources du Pôle informatique.",
+      "mots_cles": [
+        "gestion des ressources",
+        "informatique",
+        "systèmes d’information",
+        "data",
+        "transformation numérique"
+      ],
+      "profils_formation_pertinents": [
+        "gestion",
+        "administration"
+      ],
+      "competences_pertinentes": [
+        "organisation",
+        "gestion"
+      ],
+      "sources_ids": [
+        "src-mef-2026-402"
+      ],
+      "source_status": "source_officielle_consultee",
+      "note": "",
+      "synonymes": [
+        "Département de la Gestion des ressources (Pôle informatique)"
+      ],
+      "date_derniere_verification": "2026-10-16",
+      "note_orientation": "La correspondance de compétences est indicative; aucun accueil de stagiaire n’est garanti."
+    },
+    {
+      "id": "dept-informatique-dgi",
+      "structure_id": "dgi",
+      "nom": "Département de l’Informatique (DGI)",
+      "missions_resume": "Département informatique mentionné dans l'organisation de la DGI; détail opérationnel de ses missions à reprendre de l'arrêté/décret intégral.",
+      "mots_cles": [
+        "informatique",
+        "systèmes d'information",
+        "systèmes d’information",
+        "data",
+        "transformation numérique"
+      ],
+      "profils_formation_pertinents": [
+        "informatique",
+        "génie logiciel",
+        "data science"
+      ],
+      "competences_pertinentes": [
+        "SQL",
+        "Python",
+        "développement",
+        "support IT"
+      ],
+      "sources_ids": [
+        "src-mef-2026-402"
+      ],
+      "source_status": "source_officielle_consultee",
+      "note": "Le domaine est pertinent, mais ne pas inventer la fiche de poste ou une offre.",
+      "synonymes": [
+        "Département de l’Informatique (DGI)"
+      ],
+      "date_derniere_verification": "2026-10-16",
+      "note_orientation": "La correspondance de compétences est indicative; aucun accueil de stagiaire n’est garanti."
+    },
+    {
+      "id": "dept-prevision-fiscale",
+      "structure_id": "dgi",
+      "nom": "Département de la Prévision, des Études et du Suivi des Réformes fiscales",
+      "missions_resume": "Prévision, études et suivi des réformes fiscales.",
+      "mots_cles": [
+        "prévision",
+        "études",
+        "réformes fiscales",
+        "statistiques"
+      ],
+      "profils_formation_pertinents": [
+        "économie",
+        "statistiques",
+        "data science",
+        "finance"
+      ],
+      "competences_pertinentes": [
+        "statistiques",
+        "Python",
+        "analyse de données",
+        "prévision"
+      ],
+      "sources_ids": [
+        "src-mef-2026-402"
+      ],
+      "source_status": "source_officielle_consultee",
+      "note": "",
+      "synonymes": [
+        "Département de la Prévision, des Études et du Suivi des Réformes fiscales"
+      ],
+      "date_derniere_verification": "2026-10-16",
+      "note_orientation": "La correspondance de compétences est indicative; aucun accueil de stagiaire n’est garanti."
+    },
+    {
+      "id": "dept-legislation-contentieux",
+      "structure_id": "dgi",
+      "nom": "Département de la Législation et du Contentieux",
+      "missions_resume": "Législation fiscale et contentieux.",
+      "mots_cles": [
+        "législation",
+        "contentieux",
+        "droit fiscal"
+      ],
+      "profils_formation_pertinents": [
+        "droit",
+        "fiscalité"
+      ],
+      "competences_pertinentes": [
+        "analyse juridique",
+        "rédaction"
+      ],
+      "sources_ids": [
+        "src-mef-2026-402"
+      ],
+      "source_status": "source_officielle_consultee",
+      "note": "",
+      "synonymes": [
+        "Département de la Législation et du Contentieux"
+      ],
+      "date_derniere_verification": "2026-10-16",
+      "note_orientation": "La correspondance de compétences est indicative; aucun accueil de stagiaire n’est garanti."
+    },
+    {
+      "id": "dept-planification-evaluation",
+      "structure_id": "dgi",
+      "nom": "Département de la Planification et du Suivi-Évaluation",
+      "missions_resume": "Planification et suivi-évaluation.",
+      "mots_cles": [
+        "planification",
+        "indicateurs",
+        "suivi-évaluation"
+      ],
+      "profils_formation_pertinents": [
+        "statistiques",
+        "data",
+        "gestion de projet"
+      ],
+      "competences_pertinentes": [
+        "KPI",
+        "tableaux de bord",
+        "analyse de données"
+      ],
+      "sources_ids": [
+        "src-mef-2026-402"
+      ],
+      "source_status": "source_officielle_consultee",
+      "note": "",
+      "synonymes": [
+        "Département de la Planification et du Suivi-Évaluation"
+      ],
+      "date_derniere_verification": "2026-10-16",
+      "note_orientation": "La correspondance de compétences est indicative; aucun accueil de stagiaire n’est garanti."
+    },
+    {
+      "id": "recette-nationale-impots",
+      "structure_id": "dgi",
+      "nom": "Recette nationale des Impôts",
+      "missions_resume": "Fonctions de recette nationale des impôts ; détail de tâches non repris ici.",
+      "mots_cles": [
+        "recettes",
+        "impôts"
+      ],
+      "profils_formation_pertinents": [
+        "comptabilité",
+        "finance",
+        "fiscalité"
+      ],
+      "competences_pertinentes": [
+        "comptabilité",
+        "analyse"
+      ],
+      "sources_ids": [
+        "src-mef-2026-402"
+      ],
+      "source_status": "source_officielle_consultee",
+      "note": "",
+      "synonymes": [
+        "Recette nationale des Impôts"
+      ],
+      "date_derniere_verification": "2026-10-16",
+      "note_orientation": "La correspondance de compétences est indicative; aucun accueil de stagiaire n’est garanti."
+    },
+    {
+      "id": "dept-gestion-facturation-electronique",
+      "structure_id": "dgi",
+      "nom": "Département de la Gestion de la Facturation Électronique",
+      "missions_resume": "Gestion de la facturation électronique.",
+      "mots_cles": [
+        "facturation électronique",
+        "digitalisation",
+        "données fiscales"
+      ],
+      "profils_formation_pertinents": [
+        "informatique",
+        "comptabilité",
+        "data science"
+      ],
+      "competences_pertinentes": [
+        "SQL",
+        "qualité de données",
+        "analyse",
+        "systèmes d'information"
+      ],
+      "sources_ids": [
+        "src-mef-2026-402"
+      ],
+      "source_status": "source_officielle_consultee",
+      "note": "",
+      "synonymes": [
+        "Département de la Gestion de la Facturation Électronique"
+      ],
+      "date_derniere_verification": "2026-10-16",
+      "note_orientation": "La correspondance de compétences est indicative; aucun accueil de stagiaire n’est garanti."
+    },
+    {
+      "id": "dept-controle-fiscal",
+      "structure_id": "dgi",
+      "nom": "Département du Contrôle Fiscal",
+      "missions_resume": "Contrôle fiscal.",
+      "mots_cles": [
+        "contrôle fiscal",
+        "conformité"
+      ],
+      "profils_formation_pertinents": [
+        "fiscalité",
+        "droit",
+        "comptabilité",
+        "analyse de données"
+      ],
+      "competences_pertinentes": [
+        "analyse",
+        "audit",
+        "contrôle"
+      ],
+      "sources_ids": [
+        "src-mef-2026-402"
+      ],
+      "source_status": "source_officielle_consultee",
+      "note": "",
+      "synonymes": [
+        "Département du Contrôle Fiscal"
+      ],
+      "date_derniere_verification": "2026-10-16",
+      "note_orientation": "La correspondance de compétences est indicative; aucun accueil de stagiaire n’est garanti."
+    },
+    {
+      "id": "dept-renseignement-fraude",
+      "structure_id": "dgi",
+      "nom": "Département du Renseignement et de la Lutte contre la Fraude",
+      "missions_resume": "Renseignement et lutte contre la fraude ; modalités d'accès aux données sensibles non présumées.",
+      "mots_cles": [
+        "renseignement",
+        "fraude",
+        "risque"
+      ],
+      "profils_formation_pertinents": [
+        "finance",
+        "droit",
+        "informatique",
+        "data science"
+      ],
+      "competences_pertinentes": [
+        "analyse",
+        "statistiques",
+        "détection d'anomalies"
+      ],
+      "sources_ids": [
+        "src-mef-2026-402"
+      ],
+      "source_status": "source_officielle_consultee",
+      "note": "Ne jamais suggérer que des stagiaires auront accès aux dossiers confidentiels.",
+      "synonymes": [
+        "Département du Renseignement et de la Lutte contre la Fraude"
+      ],
+      "date_derniere_verification": "2026-10-16",
+      "note_orientation": "La correspondance de compétences est indicative; aucun accueil de stagiaire n’est garanti."
+    },
+    {
+      "id": "dept-grandes-entreprises",
+      "structure_id": "dgi",
+      "nom": "Département des Grandes Entreprises",
+      "missions_resume": "Département en charge des grandes entreprises dans l'organisation de la DGI.",
+      "mots_cles": [
+        "fiscalité",
+        "entreprises"
+      ],
+      "profils_formation_pertinents": [
+        "finance",
+        "comptabilité",
+        "droit fiscal"
+      ],
+      "competences_pertinentes": [
+        "analyse financière",
+        "fiscalité"
+      ],
+      "sources_ids": [
+        "src-mef-2026-402"
+      ],
+      "source_status": "source_officielle_consultee",
+      "note": "",
+      "synonymes": [
+        "Département des Grandes Entreprises"
+      ],
+      "date_derniere_verification": "2026-10-16",
+      "note_orientation": "La correspondance de compétences est indicative; aucun accueil de stagiaire n’est garanti."
+    },
+    {
+      "id": "dept-moyennes-entreprises",
+      "structure_id": "dgi",
+      "nom": "Département des Moyennes Entreprises",
+      "missions_resume": "Département en charge des moyennes entreprises dans l'organisation de la DGI.",
+      "mots_cles": [
+        "fiscalité",
+        "entreprises"
+      ],
+      "profils_formation_pertinents": [
+        "finance",
+        "comptabilité",
+        "droit fiscal"
+      ],
+      "competences_pertinentes": [
+        "analyse financière",
+        "fiscalité"
+      ],
+      "sources_ids": [
+        "src-mef-2026-402"
+      ],
+      "source_status": "source_officielle_consultee",
+      "note": "",
+      "synonymes": [
+        "Département des Moyennes Entreprises"
+      ],
+      "date_derniere_verification": "2026-10-16",
+      "note_orientation": "La correspondance de compétences est indicative; aucun accueil de stagiaire n’est garanti."
+    },
+    {
+      "id": "dept-affaires-monetaires",
+      "structure_id": "dgtcp",
+      "nom": "Département des Affaires Monétaires et Financières",
+      "missions_resume": "Affaires monétaires et financières selon la nomenclature du décret.",
+      "mots_cles": [
+        "monétaire",
+        "finance"
+      ],
+      "profils_formation_pertinents": [
+        "finance",
+        "économie"
+      ],
+      "competences_pertinentes": [
+        "analyse financière",
+        "statistiques"
+      ],
+      "sources_ids": [
+        "src-mef-2026-402"
+      ],
+      "source_status": "source_officielle_consultee",
+      "note": "",
+      "synonymes": [
+        "Département des Affaires Monétaires et Financières"
+      ],
+      "date_derniere_verification": "2026-10-16",
+      "note_orientation": "La correspondance de compétences est indicative; aucun accueil de stagiaire n’est garanti."
+    },
+    {
+      "id": "dept-reglementation-comptable",
+      "structure_id": "dgtcp",
+      "nom": "Département de la Réglementation Comptable",
+      "missions_resume": "Réglementation de la comptabilité publique.",
+      "mots_cles": [
+        "comptabilité publique",
+        "réglementation"
+      ],
+      "profils_formation_pertinents": [
+        "comptabilité",
+        "finance",
+        "droit"
+      ],
+      "competences_pertinentes": [
+        "comptabilité publique",
+        "analyse"
+      ],
+      "sources_ids": [
+        "src-mef-2026-402"
+      ],
+      "source_status": "source_officielle_consultee",
+      "note": "",
+      "synonymes": [
+        "Département de la Réglementation Comptable"
+      ],
+      "date_derniere_verification": "2026-10-16",
+      "note_orientation": "La correspondance de compétences est indicative; aucun accueil de stagiaire n’est garanti."
+    },
+    {
+      "id": "dept-planification-statistiques-tresor",
+      "structure_id": "dgtcp",
+      "nom": "Département de la Planification et des Statistiques (Trésor)",
+      "missions_resume": "Planification et statistiques du Trésor.",
+      "mots_cles": [
+        "planification",
+        "statistiques",
+        "indicateurs",
+        "informatique",
+        "systèmes d’information",
+        "data",
+        "transformation numérique"
+      ],
+      "profils_formation_pertinents": [
+        "statistiques",
+        "data science",
+        "économie",
+        "informatique"
+      ],
+      "competences_pertinentes": [
+        "Python",
+        "SQL",
+        "statistiques",
+        "visualisation"
+      ],
+      "sources_ids": [
+        "src-mef-2026-402"
+      ],
+      "source_status": "source_officielle_consultee",
+      "note": "",
+      "synonymes": [
+        "Département de la Planification et des Statistiques (Trésor)"
+      ],
+      "date_derniere_verification": "2026-10-16",
+      "note_orientation": "La correspondance de compétences est indicative; aucun accueil de stagiaire n’est garanti."
+    },
+    {
+      "id": "dept-etudes-reformes-tresor",
+      "structure_id": "dgtcp",
+      "nom": "Département des Études et des Réformes (Trésor)",
+      "missions_resume": "Études et réformes relevant du Trésor.",
+      "mots_cles": [
+        "études",
+        "réformes"
+      ],
+      "profils_formation_pertinents": [
+        "économie",
+        "finance",
+        "statistiques"
+      ],
+      "competences_pertinentes": [
+        "analyse",
+        "recherche",
+        "statistiques"
+      ],
+      "sources_ids": [
+        "src-mef-2026-402"
+      ],
+      "source_status": "source_officielle_consultee",
+      "note": "",
+      "synonymes": [
+        "Département des Études et des Réformes (Trésor)"
+      ],
+      "date_derniere_verification": "2026-10-16",
+      "note_orientation": "La correspondance de compétences est indicative; aucun accueil de stagiaire n’est garanti."
+    },
+    {
+      "id": "dept-recettes-tresor",
+      "structure_id": "dgtcp",
+      "nom": "Département des Recettes (Trésor)",
+      "missions_resume": "Questions relatives aux recettes relevant du Trésor.",
+      "mots_cles": [
+        "recettes publiques"
+      ],
+      "profils_formation_pertinents": [
+        "finance",
+        "comptabilité",
+        "économie"
+      ],
+      "competences_pertinentes": [
+        "analyse financière",
+        "comptabilité"
+      ],
+      "sources_ids": [
+        "src-mef-2026-402"
+      ],
+      "source_status": "source_officielle_consultee",
+      "note": "",
+      "synonymes": [
+        "Département des Recettes (Trésor)"
+      ],
+      "date_derniere_verification": "2026-10-16",
+      "note_orientation": "La correspondance de compétences est indicative; aucun accueil de stagiaire n’est garanti."
+    },
+    {
+      "id": "dept-paiements-monetique",
+      "structure_id": "dgtcp",
+      "nom": "Département des Paiements Publics et de la Monétique",
+      "missions_resume": "Paiements publics et monétique.",
+      "mots_cles": [
+        "paiements publics",
+        "monétique",
+        "systèmes de paiement"
+      ],
+      "profils_formation_pertinents": [
+        "informatique",
+        "finance",
+        "data science"
+      ],
+      "competences_pertinentes": [
+        "analyse des données",
+        "SQL",
+        "processus de paiement"
+      ],
+      "sources_ids": [
+        "src-mef-2026-402"
+      ],
+      "source_status": "source_officielle_consultee",
+      "note": "",
+      "synonymes": [
+        "Département des Paiements Publics et de la Monétique"
+      ],
+      "date_derniere_verification": "2026-10-16",
+      "note_orientation": "La correspondance de compétences est indicative; aucun accueil de stagiaire n’est garanti."
+    },
+    {
+      "id": "dept-informatique-tresor",
+      "structure_id": "dgtcp",
+      "nom": "Département de l’Informatique (Trésor)",
+      "missions_resume": "Département informatique mentionné dans l'organisation de la DGTCP; détail de la fiche de poste à confirmer.",
+      "mots_cles": [
+        "informatique",
+        "systèmes d'information",
+        "systèmes d’information",
+        "data",
+        "transformation numérique"
+      ],
+      "profils_formation_pertinents": [
+        "informatique",
+        "data science",
+        "développement logiciel"
+      ],
+      "competences_pertinentes": [
+        "Python",
+        "SQL",
+        "API",
+        "support IT"
+      ],
+      "sources_ids": [
+        "src-mef-2026-402"
+      ],
+      "source_status": "source_officielle_consultee",
+      "note": "",
+      "synonymes": [
+        "Département de l’Informatique (Trésor)"
+      ],
+      "date_derniere_verification": "2026-10-16",
+      "note_orientation": "La correspondance de compétences est indicative; aucun accueil de stagiaire n’est garanti."
+    },
+    {
+      "id": "dept-production-comptes",
+      "structure_id": "dgtcp",
+      "nom": "Département de la Production des comptes publics",
+      "missions_resume": "Production des comptes publics.",
+      "mots_cles": [
+        "comptes publics",
+        "comptabilité"
+      ],
+      "profils_formation_pertinents": [
+        "comptabilité",
+        "finance",
+        "statistiques"
+      ],
+      "competences_pertinentes": [
+        "analyse",
+        "contrôle",
+        "Excel"
+      ],
+      "sources_ids": [
+        "src-mef-2026-402"
+      ],
+      "source_status": "source_officielle_consultee",
+      "note": "",
+      "synonymes": [
+        "Département de la Production des comptes publics"
+      ],
+      "date_derniere_verification": "2026-10-16",
+      "note_orientation": "La correspondance de compétences est indicative; aucun accueil de stagiaire n’est garanti."
+    },
+    {
+      "id": "dept-finances-locales",
+      "structure_id": "dgtcp",
+      "nom": "Département des Finances Locales",
+      "missions_resume": "Finances locales.",
+      "mots_cles": [
+        "collectivités",
+        "finances locales"
+      ],
+      "profils_formation_pertinents": [
+        "finance publique",
+        "économie",
+        "statistiques"
+      ],
+      "competences_pertinentes": [
+        "analyse budgétaire",
+        "indicateurs"
+      ],
+      "sources_ids": [
+        "src-mef-2026-402"
+      ],
+      "source_status": "source_officielle_consultee",
+      "note": "",
+      "synonymes": [
+        "Département des Finances Locales"
+      ],
+      "date_derniere_verification": "2026-10-16",
+      "note_orientation": "La correspondance de compétences est indicative; aucun accueil de stagiaire n’est garanti."
+    },
+    {
+      "id": "dept-suivi-banques-offices-digitaux",
+      "structure_id": "dg-secteur-financier",
+      "nom": "Département du Suivi des Banques et des Offices Financiers Digitaux",
+      "missions_resume": "Suivi des banques et offices financiers digitaux.",
+      "mots_cles": [
+        "banques",
+        "services financiers digitaux"
+      ],
+      "profils_formation_pertinents": [
+        "finance",
+        "informatique",
+        "data science"
+      ],
+      "competences_pertinentes": [
+        "analyse des données",
+        "statistiques",
+        "indicateurs"
+      ],
+      "sources_ids": [
+        "src-mef-2026-402"
+      ],
+      "source_status": "source_officielle_consultee",
+      "note": "",
+      "synonymes": [
+        "Département du Suivi des Banques et des Offices Financiers Digitaux"
+      ],
+      "date_derniere_verification": "2026-10-16",
+      "note_orientation": "La correspondance de compétences est indicative; aucun accueil de stagiaire n’est garanti."
+    },
+    {
+      "id": "dept-supervision-microfinance",
+      "structure_id": "dg-secteur-financier",
+      "nom": "Département de la Supervision des Institutions de Microfinance",
+      "missions_resume": "Supervision des institutions de microfinance.",
+      "mots_cles": [
+        "microfinance",
+        "supervision"
+      ],
+      "profils_formation_pertinents": [
+        "finance",
+        "économie",
+        "statistiques"
+      ],
+      "competences_pertinentes": [
+        "analyse financière",
+        "statistiques"
+      ],
+      "sources_ids": [
+        "src-mef-2026-402"
+      ],
+      "source_status": "source_officielle_consultee",
+      "note": "",
+      "synonymes": [
+        "Département de la Supervision des Institutions de Microfinance"
+      ],
+      "date_derniere_verification": "2026-10-16",
+      "note_orientation": "La correspondance de compétences est indicative; aucun accueil de stagiaire n’est garanti."
+    },
+    {
+      "id": "dept-etudes-statistiques-financieres",
+      "structure_id": "dg-secteur-financier",
+      "nom": "Département des Études et des Statistiques Financières",
+      "missions_resume": "Études et statistiques financières.",
+      "mots_cles": [
+        "études",
+        "statistiques financières",
+        "informatique",
+        "systèmes d’information",
+        "data",
+        "transformation numérique"
+      ],
+      "profils_formation_pertinents": [
+        "statistiques",
+        "data science",
+        "économie",
+        "informatique"
+      ],
+      "competences_pertinentes": [
+        "Python",
+        "R",
+        "SQL",
+        "statistiques",
+        "visualisation"
+      ],
+      "sources_ids": [
+        "src-mef-2026-402"
+      ],
+      "source_status": "source_officielle_consultee",
+      "note": "",
+      "synonymes": [
+        "Département des Études et des Statistiques Financières"
+      ],
+      "date_derniere_verification": "2026-10-16",
+      "note_orientation": "La correspondance de compétences est indicative; aucun accueil de stagiaire n’est garanti."
+    },
+    {
+      "id": "dept-microfinance",
+      "structure_id": "dg-microfinance",
+      "nom": "Département de la Microfinance",
+      "missions_resume": "Questions relatives à la microfinance.",
+      "mots_cles": [
+        "microfinance"
+      ],
+      "profils_formation_pertinents": [
+        "finance",
+        "économie",
+        "statistiques"
+      ],
+      "competences_pertinentes": [
+        "analyse",
+        "indicateurs"
+      ],
+      "sources_ids": [
+        "src-mef-2026-402"
+      ],
+      "source_status": "source_officielle_consultee",
+      "note": "",
+      "synonymes": [
+        "Département de la Microfinance"
+      ],
+      "date_derniere_verification": "2026-10-16",
+      "note_orientation": "La correspondance de compétences est indicative; aucun accueil de stagiaire n’est garanti."
+    },
+    {
+      "id": "dept-inclusion-financiere",
+      "structure_id": "dg-microfinance",
+      "nom": "Département de l’Inclusion financière",
+      "missions_resume": "Questions relatives à l'inclusion financière.",
+      "mots_cles": [
+        "inclusion financière",
+        "finance inclusive"
+      ],
+      "profils_formation_pertinents": [
+        "finance",
+        "économie",
+        "statistiques",
+        "data science"
+      ],
+      "competences_pertinentes": [
+        "enquête",
+        "analyse de données",
+        "indicateurs"
+      ],
+      "sources_ids": [
+        "src-mef-2026-402"
+      ],
+      "source_status": "source_officielle_consultee",
+      "note": "",
+      "synonymes": [
+        "Département de l’Inclusion financière"
+      ],
+      "date_derniere_verification": "2026-10-16",
+      "note_orientation": "La correspondance de compétences est indicative; aucun accueil de stagiaire n’est garanti."
+    },
+    {
+      "id": "dept-suivi-performances-regies",
+      "structure_id": "dc-supervision-regies",
+      "nom": "Département du Suivi des performances",
+      "missions_resume": "Suivi des performances des régies financières.",
+      "mots_cles": [
+        "performance",
+        "KPI",
+        "recettes"
+      ],
+      "profils_formation_pertinents": [
+        "data science",
+        "statistiques",
+        "informatique",
+        "finance"
+      ],
+      "competences_pertinentes": [
+        "Power BI",
+        "SQL",
+        "tableaux de bord",
+        "analyse de données"
+      ],
+      "sources_ids": [
+        "src-mef-2026-402"
+      ],
+      "source_status": "source_officielle_consultee",
+      "note": "",
+      "synonymes": [
+        "Département du Suivi des performances"
+      ],
+      "date_derniere_verification": "2026-10-16",
+      "note_orientation": "La correspondance de compétences est indicative; aucun accueil de stagiaire n’est garanti."
+    },
+    {
+      "id": "dept-politique-fiscale",
+      "structure_id": "dc-supervision-regies",
+      "nom": "Département de la Politique fiscale",
+      "missions_resume": "Questions de politique fiscale.",
+      "mots_cles": [
+        "politique fiscale",
+        "réformes"
+      ],
+      "profils_formation_pertinents": [
+        "économie",
+        "fiscalité",
+        "statistiques"
+      ],
+      "competences_pertinentes": [
+        "analyse",
+        "prévision",
+        "statistiques"
+      ],
+      "sources_ids": [
+        "src-mef-2026-402"
+      ],
+      "source_status": "source_officielle_consultee",
+      "note": "",
+      "synonymes": [
+        "Département de la Politique fiscale"
+      ],
+      "date_derniere_verification": "2026-10-16",
+      "note_orientation": "La correspondance de compétences est indicative; aucun accueil de stagiaire n’est garanti."
+    },
+    {
+      "id": "dept-architecture-urbanisation-budget",
+      "structure_id": "pole-info-budget",
+      "nom": "Département des Études, de l’Architecture et de l’Urbanisation",
+      "missions_resume": "Architecture et urbanisation des systèmes informatiques.",
+      "mots_cles": [
+        "architecture",
+        "urbanisation",
+        "systèmes d'information",
+        "informatique",
+        "systèmes d’information",
+        "data",
+        "transformation numérique"
+      ],
+      "profils_formation_pertinents": [
+        "informatique",
+        "génie logiciel",
+        "architecture"
+      ],
+      "competences_pertinentes": [
+        "architecture logicielle",
+        "documentation",
+        "systèmes"
+      ],
+      "sources_ids": [
+        "src-mef-2026-403"
+      ],
+      "source_status": "source_officielle_consultee",
+      "note": "",
+      "synonymes": [
+        "Département des Études, de l’Architecture et de l’Urbanisation"
+      ],
+      "date_derniere_verification": "2026-10-16",
+      "note_orientation": "La correspondance de compétences est indicative; aucun accueil de stagiaire n’est garanti."
+    },
+    {
+      "id": "dept-developpement-integration-budget",
+      "structure_id": "pole-info-budget",
+      "nom": "Département du Développement et de l’Intégration",
+      "missions_resume": "Développement et intégration des systèmes.",
+      "mots_cles": [
+        "développement",
+        "intégration",
+        "applications",
+        "informatique",
+        "systèmes d’information",
+        "data",
+        "transformation numérique"
+      ],
+      "profils_formation_pertinents": [
+        "informatique",
+        "génie logiciel",
+        "IA"
+      ],
+      "competences_pertinentes": [
+        "Python",
+        "API",
+        "tests",
+        "développement logiciel"
+      ],
+      "sources_ids": [
+        "src-mef-2026-403"
+      ],
+      "source_status": "source_officielle_consultee",
+      "note": "",
+      "synonymes": [
+        "Département du Développement et de l’Intégration"
+      ],
+      "date_derniere_verification": "2026-10-16",
+      "note_orientation": "La correspondance de compétences est indicative; aucun accueil de stagiaire n’est garanti."
+    },
+    {
+      "id": "dept-infrastructures-securite-budget",
+      "structure_id": "pole-info-budget",
+      "nom": "Département des Infrastructures et de la Sécurité informatique",
+      "missions_resume": "Infrastructures et sécurité informatique.",
+      "mots_cles": [
+        "infrastructure",
+        "sécurité informatique",
+        "informatique",
+        "systèmes d’information",
+        "data",
+        "transformation numérique"
+      ],
+      "profils_formation_pertinents": [
+        "réseaux",
+        "cybersécurité",
+        "informatique"
+      ],
+      "competences_pertinentes": [
+        "administration systèmes",
+        "réseaux",
+        "sécurité"
+      ],
+      "sources_ids": [
+        "src-mef-2026-403"
+      ],
+      "source_status": "source_officielle_consultee",
+      "note": "",
+      "synonymes": [
+        "Département des Infrastructures et de la Sécurité informatique"
+      ],
+      "date_derniere_verification": "2026-10-16",
+      "note_orientation": "La correspondance de compétences est indicative; aucun accueil de stagiaire n’est garanti."
+    },
+    {
+      "id": "dept-gouvernance-donnees-statistiques-budget",
+      "structure_id": "pole-info-budget",
+      "nom": "Département de la Gouvernance des Données, de la Statistique et du Suivi de l’Exploitation",
+      "missions_resume": "Gouvernance des données, statistiques et suivi de l'exploitation.",
+      "mots_cles": [
+        "données",
+        "statistiques",
+        "suivi exploitation",
+        "informatique",
+        "systèmes d’information",
+        "data",
+        "transformation numérique"
+      ],
+      "profils_formation_pertinents": [
+        "data science",
+        "statistiques",
+        "informatique"
+      ],
+      "competences_pertinentes": [
+        "SQL",
+        "Python",
+        "qualité de données",
+        "tableaux de bord"
+      ],
+      "sources_ids": [
+        "src-mef-2026-403"
+      ],
+      "source_status": "source_officielle_consultee",
+      "note": "",
+      "synonymes": [
+        "Département de la Gouvernance des Données, de la Statistique et du Suivi de l’Exploitation"
+      ],
+      "date_derniere_verification": "2026-10-16",
+      "note_orientation": "La correspondance de compétences est indicative; aucun accueil de stagiaire n’est garanti."
+    },
+    {
+      "id": "dept-informatique-dgb",
+      "structure_id": "dgb",
+      "nom": "Département de l’Informatique (DGB)",
+      "missions_resume": "Département informatique de la DGB selon le décret; missions opérationnelles à vérifier dans le texte complet.",
+      "mots_cles": [
+        "informatique",
+        "systèmes d'information budgétaires",
+        "systèmes d’information",
+        "data",
+        "transformation numérique"
+      ],
+      "profils_formation_pertinents": [
+        "informatique",
+        "data",
+        "développement"
+      ],
+      "competences_pertinentes": [
+        "SQL",
+        "Python",
+        "support IT"
+      ],
+      "sources_ids": [
+        "src-mef-2026-403"
+      ],
+      "source_status": "source_officielle_consultee",
+      "note": "",
+      "synonymes": [
+        "Département de l’Informatique (DGB)"
+      ],
+      "date_derniere_verification": "2026-10-16",
+      "note_orientation": "La correspondance de compétences est indicative; aucun accueil de stagiaire n’est garanti."
+    },
+    {
+      "id": "dept-programmation-politiques-budgetaires",
+      "structure_id": "dgb",
+      "nom": "Département de la Programmation, des Politiques et Synthèses Budgétaires",
+      "missions_resume": "Programmation, politiques et synthèses budgétaires.",
+      "mots_cles": [
+        "programmation budgétaire",
+        "synthèse"
+      ],
+      "profils_formation_pertinents": [
+        "économie",
+        "finance",
+        "statistiques",
+        "data science"
+      ],
+      "competences_pertinentes": [
+        "prévision",
+        "analyse budgétaire",
+        "statistiques"
+      ],
+      "sources_ids": [
+        "src-mef-2026-403"
+      ],
+      "source_status": "source_officielle_consultee",
+      "note": "",
+      "synonymes": [
+        "Département de la Programmation, des Politiques et Synthèses Budgétaires"
+      ],
+      "date_derniere_verification": "2026-10-16",
+      "note_orientation": "La correspondance de compétences est indicative; aucun accueil de stagiaire n’est garanti."
+    },
+    {
+      "id": "dept-solde",
+      "structure_id": "dgb",
+      "nom": "Département de la Solde",
+      "missions_resume": "Questions relevant de la solde publique.",
+      "mots_cles": [
+        "solde",
+        "paie publique"
+      ],
+      "profils_formation_pertinents": [
+        "comptabilité",
+        "finance",
+        "informatique",
+        "data"
+      ],
+      "competences_pertinentes": [
+        "analyse de données",
+        "contrôle",
+        "Excel"
+      ],
+      "sources_ids": [
+        "src-mef-2026-403"
+      ],
+      "source_status": "source_officielle_consultee",
+      "note": "",
+      "synonymes": [
+        "Département de la Solde"
+      ],
+      "date_derniere_verification": "2026-10-16",
+      "note_orientation": "La correspondance de compétences est indicative; aucun accueil de stagiaire n’est garanti."
+    },
+    {
+      "id": "dept-suivi-execution-projets",
+      "structure_id": "dg-suivi-evaluation-projets",
+      "nom": "Département du Suivi de l’Exécution des Projets",
+      "missions_resume": "Suivi de l'exécution physique et financière des projets.",
+      "mots_cles": [
+        "exécution projet",
+        "suivi",
+        "indicateurs",
+        "données financières"
+      ],
+      "profils_formation_pertinents": [
+        "data science",
+        "statistiques",
+        "gestion de projet",
+        "finance"
+      ],
+      "competences_pertinentes": [
+        "collecte données",
+        "KPI",
+        "Python",
+        "Excel",
+        "Power BI"
+      ],
+      "sources_ids": [
+        "src-mef-2026-404"
+      ],
+      "source_status": "source_officielle_consultee",
+      "note": "",
+      "synonymes": [
+        "Département du Suivi de l’Exécution des Projets"
+      ],
+      "date_derniere_verification": "2026-10-16",
+      "note_orientation": "La correspondance de compétences est indicative; aucun accueil de stagiaire n’est garanti."
+    },
+    {
+      "id": "dept-evaluation-performance-projets",
+      "structure_id": "dg-suivi-evaluation-projets",
+      "nom": "Département de l’Évaluation de la Performance des Projets",
+      "missions_resume": "Évaluation de la performance des projets, y compris analyses et indicateurs selon le décret consulté.",
+      "mots_cles": [
+        "évaluation",
+        "performance",
+        "indicateurs",
+        "analyse de données"
+      ],
+      "profils_formation_pertinents": [
+        "data science",
+        "statistiques",
+        "économie",
+        "gestion de projet"
+      ],
+      "competences_pertinentes": [
+        "analyse statistique",
+        "méthodes d'évaluation",
+        "Python",
+        "visualisation"
+      ],
+      "sources_ids": [
+        "src-mef-2026-404"
+      ],
+      "source_status": "source_officielle_consultee",
+      "note": "",
+      "synonymes": [
+        "Département de l’Évaluation de la Performance des Projets"
+      ],
+      "date_derniere_verification": "2026-10-16",
+      "note_orientation": "La correspondance de compétences est indicative; aucun accueil de stagiaire n’est garanti."
+    },
+    {
+      "id": "dept-mobilisation-financements",
+      "structure_id": "dg-financement-developpement",
+      "nom": "Département de la Mobilisation des Financements",
+      "missions_resume": "Mobilisation de financements de développement.",
+      "mots_cles": [
+        "financement",
+        "ressources extérieures"
+      ],
+      "profils_formation_pertinents": [
+        "finance",
+        "économie",
+        "gestion de projet"
+      ],
+      "competences_pertinentes": [
+        "analyse financière",
+        "modélisation",
+        "reporting"
+      ],
+      "sources_ids": [
+        "src-mef-2026-404"
+      ],
+      "source_status": "source_officielle_consultee",
+      "note": "",
+      "synonymes": [
+        "Département de la Mobilisation des Financements"
+      ],
+      "date_derniere_verification": "2026-10-16",
+      "note_orientation": "La correspondance de compétences est indicative; aucun accueil de stagiaire n’est garanti."
+    },
+    {
+      "id": "dept-reformes-transformation-digitale",
+      "structure_id": "dg-financement-developpement",
+      "nom": "Département du Suivi des Réformes et de la Transformation Digitale",
+      "missions_resume": "Suivi des réformes et transformation digitale.",
+      "mots_cles": [
+        "réformes",
+        "digitalisation",
+        "performance",
+        "informatique",
+        "systèmes d’information",
+        "data",
+        "transformation numérique"
+      ],
+      "profils_formation_pertinents": [
+        "informatique",
+        "gestion de projet",
+        "data science",
+        "économie"
+      ],
+      "competences_pertinentes": [
+        "analyse",
+        "KPI",
+        "gestion de projet",
+        "tableaux de bord"
+      ],
+      "sources_ids": [
+        "src-mef-2026-404"
+      ],
+      "source_status": "source_officielle_consultee",
+      "note": "",
+      "synonymes": [
+        "Département du Suivi des Réformes et de la Transformation Digitale"
+      ],
+      "date_derniere_verification": "2026-10-16",
+      "note_orientation": "La correspondance de compétences est indicative; aucun accueil de stagiaire n’est garanti."
+    },
+    {
+      "id": "douanes-direction-systemes-information",
+      "structure_id": "dgddi",
+      "nom": "Direction des Systèmes d’Information (Douanes)",
+      "missions_resume": "Service identifié dans l'organigramme fourni en phase 1 ; contenu détaillé à revalider sur la page officielle actuelle.",
+      "mots_cles": [
+        "douanes",
+        "informatique",
+        "systèmes d'information"
+      ],
+      "profils_formation_pertinents": [
+        "informatique",
+        "IA",
+        "développement",
+        "données"
+      ],
+      "competences_pertinentes": [
+        "Python",
+        "SQL",
+        "développement logiciel",
+        "analyse de données"
+      ],
+      "sources_ids": [
+        "src-douanes-org"
+      ],
+      "source_status": "phase1_a_revalider",
+      "note": "Source et intitulé issus du dossier Phase 1 fourni ; reconsulter l'organigramme officiel avant publication.",
+      "synonymes": [
+        "Direction des Systèmes d’Information (Douanes)"
+      ],
+      "date_derniere_verification": "2026-10-16",
+      "note_orientation": "La correspondance de compétences est indicative; aucun accueil de stagiaire n’est garanti."
+    },
+    {
+      "id": "douanes-statistiques-comptabilite",
+      "structure_id": "dgddi",
+      "nom": "Bureau des Statistiques et de la Comptabilité (Douanes)",
+      "missions_resume": "Statistiques et comptabilité selon l'organigramme cité dans la phase 1.",
+      "mots_cles": [
+        "statistiques",
+        "comptabilité",
+        "commerce extérieur",
+        "informatique",
+        "systèmes d’information",
+        "data",
+        "transformation numérique"
+      ],
+      "profils_formation_pertinents": [
+        "statistiques",
+        "data science",
+        "économie",
+        "finance"
+      ],
+      "competences_pertinentes": [
+        "Python",
+        "Excel",
+        "analyse de données",
+        "statistiques"
+      ],
+      "sources_ids": [
+        "src-douanes-org"
+      ],
+      "source_status": "phase1_a_revalider",
+      "note": "",
+      "synonymes": [
+        "Bureau des Statistiques et de la Comptabilité (Douanes)"
+      ],
+      "date_derniere_verification": "2026-10-16",
+      "note_orientation": "La correspondance de compétences est indicative; aucun accueil de stagiaire n’est garanti."
+    },
+    {
+      "id": "tresorerie-generale-etat",
+      "structure_id": "dgtcp",
+      "nom": "Trésorerie Générale de l’État",
+      "missions_resume": "Trésorerie générale de l’État, mentionnée dans l’organisation de la DGTCP.",
+      "mots_cles": [
+        "trésor",
+        "trésorerie",
+        "finances publiques"
+      ],
+      "profils_formation_pertinents": [
+        "finance",
+        "comptabilité",
+        "économie"
+      ],
+      "competences_pertinentes": [
+        "comptabilité publique",
+        "analyse financière"
+      ],
+      "sources_ids": [
+        "src-mef-2026-402"
+      ],
+      "source_status": "source_officielle_consultee",
+      "note": "Nom listé dans le décret 2026-402; tâches détaillées à vérifier dans le texte complet.",
+      "synonymes": [
+        "Trésorerie Générale de l’État"
+      ],
+      "date_derniere_verification": "2026-10-16",
+      "note_orientation": "La correspondance de compétences est indicative; aucun accueil de stagiaire n’est garanti."
+    },
+    {
+      "id": "agence-comptable-dette",
+      "structure_id": "dgtcp",
+      "nom": "Agence comptable de la Dette",
+      "missions_resume": "Agence comptable de la dette mentionnée dans l’organisation du Trésor.",
+      "mots_cles": [
+        "dette publique",
+        "comptabilité de la dette"
+      ],
+      "profils_formation_pertinents": [
+        "finance",
+        "comptabilité",
+        "économie",
+        "statistiques"
+      ],
+      "competences_pertinentes": [
+        "analyse financière",
+        "reporting",
+        "comptabilité"
+      ],
+      "sources_ids": [
+        "src-mef-2026-402"
+      ],
+      "source_status": "source_officielle_consultee",
+      "note": "Nom cité dans l'organisation du Trésor; ne pas en déduire un stage vacant.",
+      "synonymes": [
+        "Agence comptable de la Dette"
+      ],
+      "date_derniere_verification": "2026-10-16",
+      "note_orientation": "La correspondance de compétences est indicative; aucun accueil de stagiaire n’est garanti."
+    },
+    {
+      "id": "dept-assurances",
+      "structure_id": "dg-secteur-financier",
+      "nom": "Département des Assurances",
+      "missions_resume": "Département des assurances au sein de la Direction générale du Secteur financier.",
+      "mots_cles": [
+        "assurances",
+        "supervision financière"
+      ],
+      "profils_formation_pertinents": [
+        "finance",
+        "droit",
+        "économie",
+        "statistiques"
+      ],
+      "competences_pertinentes": [
+        "analyse",
+        "statistiques",
+        "finance"
+      ],
+      "sources_ids": [
+        "src-mef-2026-402"
+      ],
+      "source_status": "source_officielle_consultee",
+      "note": "Nom du département mentionné dans le décret; les tâches précises doivent rester fondées sur le texte.",
+      "synonymes": [
+        "Département des Assurances"
+      ],
+      "date_derniere_verification": "2026-10-16",
+      "note_orientation": "La correspondance de compétences est indicative; aucun accueil de stagiaire n’est garanti."
+    },
+    {
+      "id": "dept-gestion-ressources-secteur-financier",
+      "structure_id": "dg-secteur-financier",
+      "nom": "Département de la Gestion des ressources (Secteur financier)",
+      "missions_resume": "Département de gestion des ressources de la Direction générale du Secteur financier.",
+      "mots_cles": [
+        "gestion des ressources",
+        "administration"
+      ],
+      "profils_formation_pertinents": [
+        "gestion",
+        "finance",
+        "administration"
+      ],
+      "competences_pertinentes": [
+        "gestion administrative",
+        "reporting"
+      ],
+      "sources_ids": [
+        "src-mef-2026-402"
+      ],
+      "source_status": "source_officielle_consultee",
+      "note": "Nom listé dans le décret.",
+      "synonymes": [
+        "Département de la Gestion des ressources (Secteur financier)"
+      ],
+      "date_derniere_verification": "2026-10-16",
+      "note_orientation": "La correspondance de compétences est indicative; aucun accueil de stagiaire n’est garanti."
+    },
+    {
+      "id": "dept-gestion-ressources-microfinance",
+      "structure_id": "dg-microfinance",
+      "nom": "Département de la Gestion des ressources (Microfinance)",
+      "missions_resume": "Département de gestion des ressources de la Direction générale de la Microfinance et de l’Inclusion financière.",
+      "mots_cles": [
+        "gestion des ressources",
+        "administration"
+      ],
+      "profils_formation_pertinents": [
+        "gestion",
+        "administration"
+      ],
+      "competences_pertinentes": [
+        "organisation",
+        "reporting"
+      ],
+      "sources_ids": [
+        "src-mef-2026-402"
+      ],
+      "source_status": "source_officielle_consultee",
+      "note": "Nom listé dans le décret.",
+      "synonymes": [
+        "Département de la Gestion des ressources (Microfinance)"
+      ],
+      "date_derniere_verification": "2026-10-16",
+      "note_orientation": "La correspondance de compétences est indicative; aucun accueil de stagiaire n’est garanti."
+    },
+    {
+      "id": "dept-gestion-ressources-budget",
+      "structure_id": "pole-info-budget",
+      "nom": "Département de la Gestion des ressources (Pôle informatique Budget)",
+      "missions_resume": "Gestion des ressources du Pôle informatique du portefeuille Budget/Fonction publique.",
+      "mots_cles": [
+        "gestion des ressources",
+        "informatique",
+        "systèmes d’information",
+        "data",
+        "transformation numérique"
+      ],
+      "profils_formation_pertinents": [
+        "gestion",
+        "administration"
+      ],
+      "competences_pertinentes": [
+        "organisation",
+        "reporting"
+      ],
+      "sources_ids": [
+        "src-mef-2026-403"
+      ],
+      "source_status": "source_officielle_consultee",
+      "note": "Nom listé dans le décret.",
+      "synonymes": [
+        "Département de la Gestion des ressources (Pôle informatique Budget)"
+      ],
+      "date_derniere_verification": "2026-10-16",
+      "note_orientation": "La correspondance de compétences est indicative; aucun accueil de stagiaire n’est garanti."
+    },
+    {
+      "id": "dept-suivi-investissements-provisions",
+      "structure_id": "dgb",
+      "nom": "Département du Suivi des investissements en Portefeuille et des provisions",
+      "missions_resume": "Suivi des investissements en portefeuille et des provisions.",
+      "mots_cles": [
+        "investissements",
+        "provisions",
+        "budget public"
+      ],
+      "profils_formation_pertinents": [
+        "économie",
+        "finance",
+        "statistiques",
+        "gestion de projet"
+      ],
+      "competences_pertinentes": [
+        "suivi d'indicateurs",
+        "analyse",
+        "reporting"
+      ],
+      "sources_ids": [
+        "src-mef-2026-403"
+      ],
+      "source_status": "source_officielle_consultee",
+      "note": "Intitulé repris du décret 2026-403; details de tâches de stagiaire non précisés.",
+      "synonymes": [
+        "Département du Suivi des investissements en Portefeuille et des provisions"
+      ],
+      "date_derniere_verification": "2026-10-16",
+      "note_orientation": "La correspondance de compétences est indicative; aucun accueil de stagiaire n’est garanti."
+    },
+    {
+      "id": "dept-pensions-rentes",
+      "structure_id": "dgb",
+      "nom": "Département des Pensions et des Rentes viagères",
+      "missions_resume": "Pensions et rentes viagères dans le périmètre budgétaire.",
+      "mots_cles": [
+        "pensions",
+        "rentes",
+        "budget"
+      ],
+      "profils_formation_pertinents": [
+        "finance",
+        "comptabilité",
+        "informatique",
+        "statistiques"
+      ],
+      "competences_pertinentes": [
+        "analyse de données",
+        "contrôle",
+        "reporting"
+      ],
+      "sources_ids": [
+        "src-mef-2026-403"
+      ],
+      "source_status": "source_officielle_consultee",
+      "note": "Intitulé repris du décret 2026-403.",
+      "synonymes": [
+        "Département des Pensions et des Rentes viagères"
+      ],
+      "date_derniere_verification": "2026-10-16",
+      "note_orientation": "La correspondance de compétences est indicative; aucun accueil de stagiaire n’est garanti."
+    },
+    {
+      "id": "dept-relations-collectivites-operateurs",
+      "structure_id": "dgb",
+      "nom": "Département des Relations avec les Collectivités territoriales et les Opérateurs de l’État",
+      "missions_resume": "Relations avec les collectivités territoriales et opérateurs de l’État.",
+      "mots_cles": [
+        "collectivités territoriales",
+        "opérateurs de l'État",
+        "finances publiques"
+      ],
+      "profils_formation_pertinents": [
+        "économie",
+        "finance",
+        "gestion publique",
+        "statistiques"
+      ],
+      "competences_pertinentes": [
+        "analyse",
+        "reporting",
+        "suivi budgétaire"
+      ],
+      "sources_ids": [
+        "src-mef-2026-403"
+      ],
+      "source_status": "source_officielle_consultee",
+      "note": "Intitulé repris du décret 2026-403.",
+      "synonymes": [
+        "Département des Relations avec les Collectivités territoriales et les Opérateurs de l’État"
+      ],
+      "date_derniere_verification": "2026-10-16",
+      "note_orientation": "La correspondance de compétences est indicative; aucun accueil de stagiaire n’est garanti."
+    },
+    {
+      "id": "dept-formation-finances",
+      "structure_id": "dgb",
+      "nom": "Département de Formation professionnelle de l’Administration centrale des Finances",
+      "missions_resume": "Formation professionnelle de l'administration centrale des Finances.",
+      "mots_cles": [
+        "formation professionnelle",
+        "compétences"
+      ],
+      "profils_formation_pertinents": [
+        "gestion",
+        "RH",
+        "administration",
+        "éducation"
+      ],
+      "competences_pertinentes": [
+        "analyse des besoins",
+        "gestion de formation",
+        "reporting"
+      ],
+      "sources_ids": [
+        "src-mef-2026-403"
+      ],
+      "source_status": "source_officielle_consultee",
+      "note": "Intitulé repris du décret 2026-403.",
+      "synonymes": [
+        "Département de Formation professionnelle de l’Administration centrale des Finances"
+      ],
+      "date_derniere_verification": "2026-10-16",
+      "note_orientation": "La correspondance de compétences est indicative; aucun accueil de stagiaire n’est garanti."
+    },
+    {
+      "id": "dept-developpement-integration-ressources",
+      "structure_id": "pole-info-ressources",
+      "nom": "Département du Développement et de l’Intégration (Ressources extérieures/Dette)",
+      "missions_resume": "Développement et intégration des applications dans le Pôle informatique du portefeuille Ressources extérieures/Dette.",
+      "mots_cles": [
+        "développement logiciel",
+        "intégration",
+        "applications",
+        "informatique",
+        "systèmes d’information",
+        "data",
+        "transformation numérique"
+      ],
+      "profils_formation_pertinents": [
+        "informatique",
+        "génie logiciel",
+        "IA"
+      ],
+      "competences_pertinentes": [
+        "Python",
+        "API",
+        "tests",
+        "développement logiciel"
+      ],
+      "sources_ids": [
+        "src-mef-2026-404"
+      ],
+      "source_status": "source_officielle_consultee",
+      "note": "Dénomination synthétique; valider l'intitulé exact et complet à l'article concerné avant mise en production.",
+      "synonymes": [
+        "Département du Développement et de l’Intégration (Ressources extérieures/Dette)"
+      ],
+      "date_derniere_verification": "2026-10-16",
+      "note_orientation": "La correspondance de compétences est indicative; aucun accueil de stagiaire n’est garanti."
+    },
+    {
+      "id": "dept-infrastructures-systemes-support-ressources",
+      "structure_id": "pole-info-ressources",
+      "nom": "Département des Infrastructures, des Systèmes et du Support",
+      "missions_resume": "Infrastructures, systèmes et support IT.",
+      "mots_cles": [
+        "infrastructure",
+        "systèmes",
+        "support"
+      ],
+      "profils_formation_pertinents": [
+        "informatique",
+        "réseaux",
+        "cybersécurité"
+      ],
+      "competences_pertinentes": [
+        "administration systèmes",
+        "réseaux",
+        "support IT"
+      ],
+      "sources_ids": [
+        "src-mef-2026-404"
+      ],
+      "source_status": "source_officielle_consultee",
+      "note": "Intitulé condensé à vérifier à partir du texte intégral.",
+      "synonymes": [
+        "Département des Infrastructures, des Systèmes et du Support"
+      ],
+      "date_derniere_verification": "2026-10-16",
+      "note_orientation": "La correspondance de compétences est indicative; aucun accueil de stagiaire n’est garanti."
+    },
+    {
+      "id": "dept-gestion-ressources-exterieures",
+      "structure_id": "pole-info-ressources",
+      "nom": "Département de la Gestion des Ressources (Pôle informatique Ressources extérieures/Dette)",
+      "missions_resume": "Gestion des ressources du Pôle informatique.",
+      "mots_cles": [
+        "gestion des ressources",
+        "informatique",
+        "systèmes d’information",
+        "data",
+        "transformation numérique"
+      ],
+      "profils_formation_pertinents": [
+        "gestion",
+        "administration"
+      ],
+      "competences_pertinentes": [
+        "organisation",
+        "reporting"
+      ],
+      "sources_ids": [
+        "src-mef-2026-404"
+      ],
+      "source_status": "source_officielle_consultee",
+      "note": "Nom de fonction à valider contre le texte intégral.",
+      "synonymes": [
+        "Département de la Gestion des Ressources (Pôle informatique Ressources extérieures/Dette)"
+      ],
+      "date_derniere_verification": "2026-10-16",
+      "note_orientation": "La correspondance de compétences est indicative; aucun accueil de stagiaire n’est garanti."
+    },
+    {
+      "id": "dept-strategie-prospective-innovation",
+      "structure_id": "dg-cooperation-internationale",
+      "nom": "Département de la Stratégie, de la Prospective et de l’Innovation",
+      "missions_resume": "Stratégie, prospective et innovation en matière de coopération internationale.",
+      "mots_cles": [
+        "stratégie",
+        "prospective",
+        "innovation",
+        "coopération"
+      ],
+      "profils_formation_pertinents": [
+        "économie",
+        "relations internationales",
+        "statistiques",
+        "data"
+      ],
+      "competences_pertinentes": [
+        "analyse",
+        "recherche",
+        "veille",
+        "synthèse"
+      ],
+      "sources_ids": [
+        "src-mef-2026-404"
+      ],
+      "source_status": "source_officielle_consultee",
+      "note": "Nom du département cité dans le décret.",
+      "synonymes": [
+        "Département de la Stratégie, de la Prospective et de l’Innovation"
+      ],
+      "date_derniere_verification": "2026-10-16",
+      "note_orientation": "La correspondance de compétences est indicative; aucun accueil de stagiaire n’est garanti."
+    },
+    {
+      "id": "dept-programmes-operations-cooperation",
+      "structure_id": "dg-cooperation-internationale",
+      "nom": "Département des Programmes et des Opérations",
+      "missions_resume": "Programmes et opérations relevant de la coopération internationale.",
+      "mots_cles": [
+        "programmes",
+        "opérations",
+        "coopération"
+      ],
+      "profils_formation_pertinents": [
+        "gestion de projet",
+        "économie",
+        "relations internationales"
+      ],
+      "competences_pertinentes": [
+        "suivi de projet",
+        "reporting",
+        "analyse"
+      ],
+      "sources_ids": [
+        "src-mef-2026-404"
+      ],
+      "source_status": "source_officielle_consultee",
+      "note": "Nom du département cité dans le décret.",
+      "synonymes": [
+        "Département des Programmes et des Opérations"
+      ],
+      "date_derniere_verification": "2026-10-16",
+      "note_orientation": "La correspondance de compétences est indicative; aucun accueil de stagiaire n’est garanti."
+    },
+    {
+      "id": "dept-partenariats-institutionnels",
+      "structure_id": "dg-cooperation-internationale",
+      "nom": "Département des Partenariats Institutionnels et Stratégiques",
+      "missions_resume": "Partenariats institutionnels et stratégiques.",
+      "mots_cles": [
+        "partenariats",
+        "coopération",
+        "stratégie"
+      ],
+      "profils_formation_pertinents": [
+        "relations internationales",
+        "gestion de projet",
+        "économie"
+      ],
+      "competences_pertinentes": [
+        "analyse",
+        "coordination",
+        "rédaction"
+      ],
+      "sources_ids": [
+        "src-mef-2026-404"
+      ],
+      "source_status": "source_officielle_consultee",
+      "note": "Nom du département cité dans le décret.",
+      "synonymes": [
+        "Département des Partenariats Institutionnels et Stratégiques"
+      ],
+      "date_derniere_verification": "2026-10-16",
+      "note_orientation": "La correspondance de compétences est indicative; aucun accueil de stagiaire n’est garanti."
+    },
+    {
+      "id": "dept-performance-financement",
+      "structure_id": "dg-financement-developpement",
+      "nom": "Département du Pilotage stratégique de la performance",
+      "missions_resume": "Pilotage stratégique de la performance du financement du développement.",
+      "mots_cles": [
+        "performance",
+        "KPI",
+        "financement"
+      ],
+      "profils_formation_pertinents": [
+        "économie",
+        "finance",
+        "statistiques",
+        "data science"
+      ],
+      "competences_pertinentes": [
+        "KPI",
+        "reporting",
+        "tableaux de bord",
+        "analyse"
+      ],
+      "sources_ids": [
+        "src-mef-2026-404"
+      ],
+      "source_status": "source_officielle_consultee",
+      "note": "Nom du département cité dans le décret.",
+      "synonymes": [
+        "Département du Pilotage stratégique de la performance"
+      ],
+      "date_derniere_verification": "2026-10-16",
+      "note_orientation": "La correspondance de compétences est indicative; aucun accueil de stagiaire n’est garanti."
+    },
+    {
+      "id": "dept-controle-qualite-financement",
+      "structure_id": "dg-financement-developpement",
+      "nom": "Département du Contrôle Interne et de la Qualité",
+      "missions_resume": "Contrôle interne et qualité.",
+      "mots_cles": [
+        "contrôle interne",
+        "qualité",
+        "conformité"
+      ],
+      "profils_formation_pertinents": [
+        "audit",
+        "gestion",
+        "finance",
+        "droit"
+      ],
+      "competences_pertinentes": [
+        "analyse",
+        "contrôle",
+        "documentation"
+      ],
+      "sources_ids": [
+        "src-mef-2026-404"
+      ],
+      "source_status": "source_officielle_consultee",
+      "note": "Nom du département cité dans le décret.",
+      "synonymes": [
+        "Département du Contrôle Interne et de la Qualité"
+      ],
+      "date_derniere_verification": "2026-10-16",
+      "note_orientation": "La correspondance de compétences est indicative; aucun accueil de stagiaire n’est garanti."
+    },
+    {
+      "id": "dept-investissements-prives",
+      "structure_id": "dg-financement-developpement",
+      "nom": "Département du Financement des Investissements Privés",
+      "missions_resume": "Financement des investissements privés.",
+      "mots_cles": [
+        "investissements privés",
+        "financement",
+        "analyse financière"
+      ],
+      "profils_formation_pertinents": [
+        "finance",
+        "économie",
+        "gestion"
+      ],
+      "competences_pertinentes": [
+        "analyse financière",
+        "modélisation",
+        "reporting"
+      ],
+      "sources_ids": [
+        "src-mef-2026-404"
+      ],
+      "source_status": "source_officielle_consultee",
+      "note": "Nom du département cité dans le décret.",
+      "synonymes": [
+        "Département du Financement des Investissements Privés"
+      ],
+      "date_derniere_verification": "2026-10-16",
+      "note_orientation": "La correspondance de compétences est indicative; aucun accueil de stagiaire n’est garanti."
+    },
+    {
+      "id": "douanes-operations",
+      "structure_id": "dgddi",
+      "nom": "Direction des Opérations Douanières",
+      "missions_resume": "Opérations douanières; description à revalider par l'organigramme officiel courant.",
+      "mots_cles": [
+        "opérations douanières",
+        "import",
+        "export",
+        "contrôle marchandises"
+      ],
+      "profils_formation_pertinents": [
+        "droit",
+        "commerce international",
+        "logistique",
+        "informatique"
+      ],
+      "competences_pertinentes": [
+        "analyse",
+        "gestion opérationnelle",
+        "données"
+      ],
+      "sources_ids": [
+        "src-douanes-org"
+      ],
+      "source_status": "phase1_a_revalider",
+      "note": "Structure mentionnée dans la base phase 1; reconsulter l'organigramme avant publication.",
+      "synonymes": [
+        "Direction des Opérations Douanières"
+      ],
+      "date_derniere_verification": "2026-10-16",
+      "note_orientation": "La correspondance de compétences est indicative; aucun accueil de stagiaire n’est garanti."
+    },
+    {
+      "id": "douanes-renseignement-enquetes-fraude",
+      "structure_id": "dgddi",
+      "nom": "Direction du Renseignement Douanier, des Enquêtes et de la Lutte contre la Fraude",
+      "missions_resume": "Renseignement, enquêtes et lutte contre la fraude douanière selon l'organigramme cité dans la phase 1.",
+      "mots_cles": [
+        "renseignement douanier",
+        "enquêtes",
+        "fraude",
+        "contrôle"
+      ],
+      "profils_formation_pertinents": [
+        "droit",
+        "économie",
+        "informatique",
+        "data science"
+      ],
+      "competences_pertinentes": [
+        "analyse",
+        "détection d'anomalies",
+        "statistiques"
+      ],
+      "sources_ids": [
+        "src-douanes-org"
+      ],
+      "source_status": "phase1_a_revalider",
+      "note": "Nom cité dans la base Phase 1; détails de structure et intitulé à vérifier contre l'organigramme le plus récent.",
+      "synonymes": [
+        "Direction du Renseignement Douanier, des Enquêtes et de la Lutte contre la Fraude"
+      ],
+      "date_derniere_verification": "2026-10-16",
+      "note_orientation": "La correspondance de compétences est indicative; aucun accueil de stagiaire n’est garanti."
+    }
+  ],
+  "date_pack": "2026-10-16",
+  "regles_affichage": [
+    "Affichage public d’un service uniquement avec sa structure parent et son statut de source.",
+    "Les synonymes sont des clés de recherche, pas des appellations officielles.",
+    "Ne pas inférer une condition d’admission ni l’existence d’une place de stage à partir du nom du service."
+  ]
+}

@@ -1,0 +1,616 @@
+{
+  "version": "2.0",
+  "profils": [
+    {
+      "id": "profil-ia-ml",
+      "nom": "Intelligence artificielle / Machine Learning",
+      "synonymes": [
+        "IA",
+        "AI",
+        "machine learning",
+        "ML",
+        "apprentissage automatique",
+        "deep learning",
+        "réseaux de neurones",
+        "NLP",
+        "traitement automatique du langage",
+        "vision par ordinateur",
+        "computer vision"
+      ],
+      "competences": [
+        "Python",
+        "pandas",
+        "scikit-learn",
+        "TensorFlow",
+        "PyTorch",
+        "modélisation",
+        "évaluation de modèles",
+        "classification",
+        "prédiction",
+        "API"
+      ],
+      "structures_recommandees": [
+        "pole-info-finances",
+        "pole-info-budget",
+        "pole-info-ressources",
+        "dgi",
+        "dgtcp",
+        "dg-suivi-evaluation-projets"
+      ],
+      "motifs": [
+        "Les textes 2026 décrivent des fonctions informatiques, de données et d'aide à la décision dans ces périmètres.",
+        "La recommandation est fondée sur les missions; elle n'indique pas qu'un stage est ouvert."
+      ],
+      "status": "inference_based_on_official_missions"
+    },
+    {
+      "id": "profil-data-bi",
+      "nom": "Data Science / Data Analyst / Business Intelligence",
+      "synonymes": [
+        "data analyst",
+        "analyste de données",
+        "data science",
+        "science des données",
+        "BI",
+        "business intelligence",
+        "tableaux de bord",
+        "data visualisation",
+        "statistiques"
+      ],
+      "competences": [
+        "Python",
+        "SQL",
+        "pandas",
+        "Excel",
+        "Power BI",
+        "statistiques",
+        "ETL",
+        "qualité des données",
+        "KPI",
+        "visualisation"
+      ],
+      "structures_recommandees": [
+        "pole-info-finances",
+        "dgi",
+        "dgtcp",
+        "dc-supervision-regies",
+        "dgb",
+        "dg-suivi-evaluation-projets",
+        "dg-financement-developpement"
+      ],
+      "motifs": [
+        "Le corpus contient des fonctions officielles de gouvernance des données, statistiques, prévision, suivi des performances et évaluation de projets."
+      ],
+      "status": "inference_based_on_official_missions"
+    },
+    {
+      "id": "profil-genie-logiciel",
+      "nom": "Développement logiciel / Génie logiciel",
+      "synonymes": [
+        "développeur",
+        "full stack",
+        "backend",
+        "frontend",
+        "API REST",
+        "web",
+        "application mobile",
+        "ingénierie logicielle"
+      ],
+      "competences": [
+        "Python",
+        "JavaScript",
+        "TypeScript",
+        "Django",
+        "FastAPI",
+        "API",
+        "SQL",
+        "Git",
+        "tests",
+        "sécurité logicielle"
+      ],
+      "structures_recommandees": [
+        "pole-info-finances",
+        "pole-info-budget",
+        "pole-info-ressources",
+        "dgi",
+        "dgtcp"
+      ],
+      "motifs": [
+        "Ces périmètres ont des missions informatiques, de développement/intégration ou de systèmes d'information dans les textes étudiés."
+      ],
+      "status": "inference_based_on_official_missions"
+    },
+    {
+      "id": "profil-cyber-reseaux",
+      "nom": "Cybersécurité / Réseaux / Systèmes",
+      "synonymes": [
+        "cyber sécurité",
+        "sécurité informatique",
+        "réseau informatique",
+        "administration systèmes",
+        "cloud",
+        "infrastructure"
+      ],
+      "competences": [
+        "réseaux",
+        "Linux",
+        "Windows Server",
+        "sécurité",
+        "logs",
+        "sauvegarde",
+        "IAM",
+        "supervision"
+      ],
+      "structures_recommandees": [
+        "pole-info-budget",
+        "pole-info-finances",
+        "pole-info-ressources"
+      ],
+      "motifs": [
+        "Des départements d'infrastructure et de sécurité informatique sont listés dans les textes 2026, sans garantir qu'ils accueillent des stagiaires."
+      ],
+      "status": "inference_based_on_official_missions"
+    },
+    {
+      "id": "profil-finance-compta",
+      "nom": "Finance / Comptabilité / Audit",
+      "synonymes": [
+        "comptabilité publique",
+        "comptabilité générale",
+        "audit",
+        "gestion financière",
+        "trésorerie",
+        "compta"
+      ],
+      "competences": [
+        "Excel",
+        "comptabilité",
+        "analyse financière",
+        "rapprochement",
+        "reporting",
+        "contrôle interne"
+      ],
+      "structures_recommandees": [
+        "dgtcp",
+        "dgi",
+        "dgb",
+        "dc-supervision-regies",
+        "igf"
+      ],
+      "motifs": [
+        "Correspondances tirées des missions fiscales, budgétaires, comptables et de supervision; admissions et profils requis à vérifier."
+      ],
+      "status": "inference_based_on_missions_with_igf_details_to_consolidate"
+    },
+    {
+      "id": "profil-economie-statistiques",
+      "nom": "Économie / Statistiques / Prévision",
+      "synonymes": [
+        "économétrie",
+        "statisticien",
+        "prévision",
+        "analyse économique",
+        "modélisation économique"
+      ],
+      "competences": [
+        "R",
+        "Python",
+        "Excel",
+        "statistiques",
+        "régression",
+        "séries temporelles",
+        "visualisation"
+      ],
+      "structures_recommandees": [
+        "dgi",
+        "dgtcp",
+        "dg-secteur-financier",
+        "dg-microfinance",
+        "dgb",
+        "dg-suivi-evaluation-projets"
+      ],
+      "motifs": [
+        "Les sources 2026 décrivent des missions d'études, statistiques, prévision, politique budgétaire et évaluation."
+      ],
+      "status": "inference_based_on_official_missions"
+    },
+    {
+      "id": "profil-droit-fiscal",
+      "nom": "Droit / Droit fiscal / Administration",
+      "synonymes": [
+        "droit public",
+        "juriste",
+        "droit des affaires",
+        "droit fiscal",
+        "contentieux"
+      ],
+      "competences": [
+        "recherche juridique",
+        "rédaction",
+        "analyse de texte",
+        "conformité",
+        "documentation"
+      ],
+      "structures_recommandees": [
+        "dgi",
+        "dgtcp",
+        "dgddi",
+        "igf"
+      ],
+      "motifs": [
+        "Correspondance potentielle avec la réglementation, le contentieux, le contrôle et les fonctions publiques; détails de l'IGF/Douanes à consolider."
+      ],
+      "status": "inference_based_on_missions"
+    },
+    {
+      "id": "profil-gestion-projet",
+      "nom": "Gestion de projet / Suivi-évaluation",
+      "synonymes": [
+        "PMO",
+        "gestion de programme",
+        "gestion de portefeuille",
+        "monitoring evaluation",
+        "suivi évaluation",
+        "M&E"
+      ],
+      "competences": [
+        "planification",
+        "KPI",
+        "reporting",
+        "gestion des risques",
+        "Power BI",
+        "Excel",
+        "collecte de données"
+      ],
+      "structures_recommandees": [
+        "dg-suivi-evaluation-projets",
+        "dg-financement-developpement",
+        "dg-cooperation-internationale",
+        "pole-info-finances"
+      ],
+      "motifs": [
+        "Le portefeuille ressources extérieures comporte des fonctions officielles de suivi de projets, d'évaluation et de performance."
+      ],
+      "status": "inference_based_on_official_missions"
+    },
+    {
+      "id": "profil-rh-travail",
+      "nom": "Ressources humaines / Fonction publique / Travail",
+      "synonymes": [
+        "RH",
+        "ressources humaines",
+        "gestion du personnel",
+        "emploi",
+        "relations professionnelles"
+      ],
+      "competences": [
+        "gestion administrative",
+        "statistiques RH",
+        "analyse",
+        "Excel",
+        "rédaction"
+      ],
+      "structures_recommandees": [
+        "port-budget-fp",
+        "dgb"
+      ],
+      "motifs": [
+        "Les décrets 2026-403 concernent explicitement la Fonction publique, le Travail et les départements de solde/ressources humaines."
+      ],
+      "status": "inference_based_on_official_missions"
+    },
+    {
+      "id": "profil-logistique",
+      "nom": "Logistique / Achats / Gestion",
+      "synonymes": [
+        "approvisionnement",
+        "stocks",
+        "moyens généraux",
+        "supply chain"
+      ],
+      "competences": [
+        "Excel",
+        "gestion de stock",
+        "suivi des équipements",
+        "organisation",
+        "reporting"
+      ],
+      "structures_recommandees": [
+        "port-budget-fp"
+      ],
+      "motifs": [
+        "Le décret 2026-403 cite une Direction générale du Matériel et de la Logistique; préciser la direction et les tâches sur la base du texte/offre."
+      ],
+      "status": "inference_based_on_official_missions"
+    },
+    {
+      "id": "profil-data-engineering",
+      "nom": "Data Engineering / Bases de données",
+      "synonymes": [
+        "ingénieur données",
+        "data engineer",
+        "ETL",
+        "pipeline de données",
+        "administration base de données",
+        "DBA",
+        "entrepôt de données"
+      ],
+      "competences": [
+        "SQL",
+        "modélisation de données",
+        "ETL",
+        "qualité des données",
+        "API",
+        "intégration",
+        "bases de données relationnelles"
+      ],
+      "structures_recommandees": [
+        "pole-info-finances",
+        "pole-info-budget",
+        "pole-info-ressources",
+        "dgi",
+        "dgtcp"
+      ],
+      "motifs": [
+        "Correspondance déduite des fonctions informatiques, de gouvernance des données, d’interopérabilité et de bases de données décrites dans les textes de référence."
+      ],
+      "status": "inference_based_on_official_missions",
+      "note": "Pistes d’orientation, pas une offre de stage ni une exigence officielle."
+    },
+    {
+      "id": "profil-bi-reporting",
+      "nom": "Business Intelligence / Reporting / Tableaux de bord",
+      "synonymes": [
+        "BI",
+        "business intelligence",
+        "informatique décisionnelle",
+        "reporting",
+        "tableau de bord",
+        "dashboard",
+        "KPI",
+        "indicateurs de performance"
+      ],
+      "competences": [
+        "Power BI",
+        "Excel",
+        "SQL",
+        "visualisation",
+        "KPI",
+        "reporting",
+        "analyse de données"
+      ],
+      "structures_recommandees": [
+        "pole-info-finances",
+        "pole-info-budget",
+        "dgtcp",
+        "dgi",
+        "dg-suivi-evaluation-projets",
+        "dg-financement-developpement"
+      ],
+      "motifs": [
+        "Les tableaux de bord, statistiques, production de comptes et fonctions de suivi-évaluation peuvent être proches de ce profil selon la fiche de service."
+      ],
+      "status": "inference_based_on_official_missions",
+      "note": "Pistes d’orientation uniquement."
+    },
+    {
+      "id": "profil-nlp-llm",
+      "nom": "NLP / Traitement automatique du langage / LLM",
+      "synonymes": [
+        "TALN",
+        "traitement automatique du langage naturel",
+        "NLP",
+        "LLM",
+        "grand modèle de langage",
+        "chatbot",
+        "assistant conversationnel",
+        "RAG"
+      ],
+      "competences": [
+        "Python",
+        "traitement de texte",
+        "embeddings",
+        "RAG",
+        "évaluation de modèle",
+        "API",
+        "prompt engineering"
+      ],
+      "structures_recommandees": [
+        "pole-info-finances",
+        "pole-info-budget",
+        "pole-info-ressources",
+        "dgi",
+        "dgtcp"
+      ],
+      "motifs": [
+        "L’adéquation est déduite des missions informatiques et de transformation numérique; aucune offre NLP/LLM n’est attestée par ce seul rapprochement."
+      ],
+      "status": "inference_based_on_official_missions",
+      "note": "Ne jamais afficher une offre LLM sans avis officiel."
+    },
+    {
+      "id": "profil-statistiques-econometrie",
+      "nom": "Statistiques / Économétrie / Prévision",
+      "synonymes": [
+        "économétrie",
+        "statistique appliquée",
+        "prévision",
+        "forecasting",
+        "modélisation statistique",
+        "séries temporelles"
+      ],
+      "competences": [
+        "statistiques",
+        "Python",
+        "R",
+        "Excel",
+        "modélisation",
+        "analyse quantitative",
+        "séries temporelles"
+      ],
+      "structures_recommandees": [
+        "dgi",
+        "dgtcp",
+        "dgb",
+        "dg-secteur-financier",
+        "dg-suivi-evaluation-projets"
+      ],
+      "motifs": [
+        "Les fonctions de prévision, statistiques, production de comptes et suivi-évaluation peuvent correspondre aux compétences indiquées."
+      ],
+      "status": "inference_based_on_official_missions",
+      "note": "Vérifier le portefeuille, le service précis et le périmètre eStage."
+    },
+    {
+      "id": "profil-fintech-paiements",
+      "nom": "FinTech / Paiements / Monétique",
+      "synonymes": [
+        "fintech",
+        "paiements numériques",
+        "monétique",
+        "transactions",
+        "mobile money",
+        "systèmes de paiement"
+      ],
+      "competences": [
+        "API",
+        "SQL",
+        "analyse financière",
+        "sécurité",
+        "traitement de transactions",
+        "contrôle qualité"
+      ],
+      "structures_recommandees": [
+        "dgtcp",
+        "dg-secteur-financier",
+        "dg-microfinance",
+        "pole-info-finances"
+      ],
+      "motifs": [
+        "Correspondance potentielle avec les fonctions de paiement, monétique et supervision financière mentionnées dans les fiches."
+      ],
+      "status": "inference_based_on_official_missions",
+      "note": "Ne pas déduire un accès à des données bancaires réelles."
+    },
+    {
+      "id": "profil-fiscalite-numerique",
+      "nom": "Fiscalité numérique / E-services fiscaux",
+      "synonymes": [
+        "fiscaltech",
+        "fiscalité digitale",
+        "télédéclaration",
+        "télépaiement",
+        "facturation électronique",
+        "e-fiscalité"
+      ],
+      "competences": [
+        "analyse de processus",
+        "SQL",
+        "gestion de données",
+        "développement logiciel",
+        "contrôle qualité"
+      ],
+      "structures_recommandees": [
+        "dgi",
+        "pole-info-finances"
+      ],
+      "motifs": [
+        "Les fiches évoquent des fonctions informatiques, de facturation électronique et de données liées à la fiscalité; valider la fiche et la source exactes avant de décrire un poste."
+      ],
+      "status": "inference_based_on_official_missions",
+      "note": "Orientation indicative, aucun poste n’est garanti."
+    },
+    {
+      "id": "profil-droit-conformite",
+      "nom": "Conformité / Audit / Contrôle interne",
+      "synonymes": [
+        "compliance",
+        "conformité",
+        "contrôle interne",
+        "audit interne",
+        "risque réglementaire",
+        "gouvernance"
+      ],
+      "competences": [
+        "analyse documentaire",
+        "rédaction",
+        "contrôle",
+        "audit",
+        "cartographie des risques"
+      ],
+      "structures_recommandees": [
+        "igf",
+        "dgddi",
+        "dgi",
+        "dg-secteur-financier"
+      ],
+      "motifs": [
+        "Pistes basées sur les missions de contrôle, fiscalité, douanes et supervision répertoriées, avec rattachements historiques à revalider."
+      ],
+      "status": "inference_based_on_missions_with_structure_scope_to_revalidate",
+      "note": "Les fiches IGF/Douanes et leur périmètre actuel doivent être confrontés aux textes à jour."
+    },
+    {
+      "id": "profil-gestion-donnees-projet",
+      "nom": "Gestion de projets numériques / PMO",
+      "synonymes": [
+        "PMO",
+        "project management office",
+        "gestion portefeuille projet",
+        "suivi des risques",
+        "planning projet",
+        "maîtrise d’ouvrage"
+      ],
+      "competences": [
+        "Excel",
+        "indicateurs",
+        "gestion de projet",
+        "reporting",
+        "documentation",
+        "coordination",
+        "analyse de données"
+      ],
+      "structures_recommandees": [
+        "pole-info-finances",
+        "pole-info-budget",
+        "pole-info-ressources",
+        "dg-suivi-evaluation-projets",
+        "dg-financement-developpement"
+      ],
+      "motifs": [
+        "Les fonctions de pilotage des projets informatiques et de suivi-évaluation sont proches de ce profil. Les exemples d’avis ASIN sont des références externes spécifiques."
+      ],
+      "status": "inference_based_on_official_missions",
+      "note": "Ne pas confondre l’offre historique ASIN avec une offre eStage en cours."
+    },
+    {
+      "id": "profil-achats-logistique",
+      "nom": "Logistique / Achats / Administration",
+      "synonymes": [
+        "approvisionnement",
+        "gestion logistique",
+        "achats publics",
+        "administration",
+        "gestion administrative"
+      ],
+      "competences": [
+        "planification",
+        "suivi budgétaire",
+        "gestion de documents",
+        "tableur",
+        "organisation"
+      ],
+      "structures_recommandees": [
+        "port-budget-fp",
+        "dgb"
+      ],
+      "motifs": [
+        "Correspondance indicative avec les fonctions administratives et budgétaires; vérifier les missions précises du service."
+      ],
+      "status": "inference_based_on_official_missions",
+      "note": "Aucune condition de stage n’est déduite du profil."
+    }
+  ],
+  "date_mise_a_jour": "2026-10-16",
+  "note_globale": "Les profils sont des taxonomies de recherche pour l’orientation; ils ne définissent pas l’éligibilité officielle et ne constituent pas des annonces de stage."
+}
