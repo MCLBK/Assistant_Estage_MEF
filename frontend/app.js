@@ -1,4 +1,4 @@
-const API_BASE = window.ESTAGE_API_BASE || "http://localhost:8000";
+const API_BASE = window.ESTAGE_API_BASE || "https://assistant-estage-mef.onrender.com";
 
 const threadEl = document.getElementById("chat-messages");
 const formEl = document.getElementById("chat-form");
